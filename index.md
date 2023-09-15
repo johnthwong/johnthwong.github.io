@@ -21,7 +21,7 @@ After a drop in the balances of accounts held at the central bank by commercial 
 This project parses JSON data from the Hong Kong Monetary Authority. Data manipulation and visualization are done with R's dplyr and ggplot libraries.
 <br>
 <br>
-Check out a similar coding file that generated the visualization below here: [https://github.com/johnthwong/hkma](https://github.com/johnthwong/hkma).
+Check out a similar coding file that generated the visualization below here: [https://github.com/johnthwong/hkma](https://github.com/johnthwong/hkma)
 <br>
 <br>
 <img src="images/thumbnail_viz_reserves.png"/>
