@@ -54,7 +54,7 @@ Check out the full paper here: [https://arxiv.org/abs/2211.00410](https://arxiv.
 
 ---
 
-## Predicting the Conflict in Developing Regions Using Machine Learning Decision Trees
+## [Predicting the Conflict in Developing Regions Using Machine Learning Decision Trees](https://github.com/johnthwong/pdf/Li_Wong_Pye_Ling_Conflict_Prediction.pdf)
 As part of a term assignment, we predicted the likelihood of armed conflicts within 50-kilometer squares by fitting a large panel of predictors to both a decision tree model specifically designed for panel data (RE-EM tree) and an artificial neural network. 
 <br>
 <br>
