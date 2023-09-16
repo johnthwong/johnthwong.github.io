@@ -30,6 +30,15 @@ Check out a similar coding file that generated the visualization below here: [ht
 
 ---
 
+## [Equal Liberal Rights Are Necessary for Growth](https://johnthwong.github.io/page_ajr)
+As part of my application to Mercatus Center's MA Fellowship, I drew on works by Daron Acemoglu and Mancur Olson to argue that equal rights are necessary for growth. I replicated Acemoglu et al.'s classic study on the effects of colonial institutional quality on modern-day growth. I use an updated dataset on growth and replace the treatment variable (originally expropriation risk) with Freedom House's country-level indices on both democracy and growth. Turns out, better political and civil rights on their own can drive even more growth than just better property rights alone. [Read more](https://johnthwong.github.io/page_ajr)
+
+<img src="images/thumbnail_ajr_table_2.png?raw=true"/>
+br>
+<br>
+
+---
+
 ## [Dear HKMA: Mandate Banks to Use the Discount Window](https://johnthwong.github.io/page_dw)
 I wrote in a policy memo in December 2022 that the HKMA (Hong Kong's central bank) should regularly mandate random banks to use the discount window (DW). This would prevent fluctuations in interbank borrowing costs, which hurts both mortgage borrowers and banks. [Read more](https://johnthwong.github.io/page_dw)
 
