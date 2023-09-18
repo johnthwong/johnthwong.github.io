@@ -31,7 +31,7 @@ Check out a similar coding file that generated the visualization below here: [ht
 ---
 
 ## [Equal Liberal Rights Are Necessary for Growth](https://johnthwong.github.io/page_ajr)
-I replicated Acemoglu et al.'s classic study on the effects of colonial institutional quality on modern-day growth. I use an updated dataset on growth and replace the treatment variable (originally expropriation risk) with Freedom House's country-level indices on both democracy and growth. 
+I replicated Acemoglu et al.'s classic study on the effects of colonial institutional quality on modern-day growth. I use an updated dataset on growth and replace the treatment variable (originally expropriation risk) with Freedom House's country-level indices on both the quality of democracy and civil liberties. 
 <br>
 <br>
 Turns out, better political and civil rights on their own can drive even more growth than just better property rights alone. [Read more](https://johnthwong.github.io/page_ajr)
