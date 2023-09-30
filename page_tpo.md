@@ -1,4 +1,4 @@
-## Give US Public Housing Residents to Purchase Their Flat
+## Give US Public Housing Residents the Right to Purchase Their Flat
 I recently wrote a policy memo for the Federation of American Scientists' call for federal policy ideas for increasing housing supply.
 
 <img src="images/thumbnail_tpo_1.jpg"/>
