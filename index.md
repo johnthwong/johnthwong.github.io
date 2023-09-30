@@ -30,7 +30,7 @@ Check out a similar coding file that generated the visualization below here: [ht
 
 ---
 
-## [Give US Public Housing Residents the Right to Purchase Their Flat](https://johnthwong.github.io/page_tpo)
+## [Give US Public Housing Residents the Right to Buy Their Flat](https://johnthwong.github.io/page_tpo)
 I recently wrote a policy memo for the Federation of American Scientists' call for federal policy ideas for increasing housing supply. By selling public housing units, we can unlock currently non-transferrable land value, increase homeownership, create new wealth that accrues to the poor, improve state and local public finances, free up units under the Faircloth Limit, and most of all, increase housing supply.
 <br>
 <br>
