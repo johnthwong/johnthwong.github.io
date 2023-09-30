@@ -35,7 +35,7 @@ I recently wrote a policy memo for the Federation of American Scientists' call f
 
 <br>
 <br>
-<img src="images/thumbnail_tpo_1.png"/>
+<img src="images/thumbnail_tpo_1.jpg"/>
 
 Photo by <a href="https://unsplash.com/@sigmund?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Sigmund</a> on <a href="https://unsplash.com/photos/CwTfKH5edSk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   

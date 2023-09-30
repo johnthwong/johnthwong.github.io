@@ -1,7 +1,7 @@
 ## Give US Public Housing Residents to Purchase Their Flat
 I recently wrote a policy memo for the Federation of American Scientists' call for federal policy ideas for increasing housing supply.
 
-<img src="images/thumbnail_tpo_1.png"/>
+<img src="images/thumbnail_tpo_1.jpg"/>
 Photo by <a href="https://unsplash.com/@sigmund?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Sigmund</a> on <a href="https://unsplash.com/photos/CwTfKH5edSk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
 *I owe the inspiration for this idea to William Wai Him Tsang and Professor Yue Chim Richard Wong for their decades-long work advocating for a subsidized homeownership scheme in Hong Kong.*
