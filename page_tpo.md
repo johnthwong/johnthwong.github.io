@@ -1,7 +1,10 @@
 ## Give US Public Housing Residents to Purchase Their Flat
 I recently wrote a policy memo for the Federation of American Scientists' call for federal policy ideas for increasing housing supply.
 
-I owe the inspiration for this idea to William Wai Him Tsang and Professor Yue Chim Richard Wong for their decades-long work advocating for a subsidized homeownership scheme in Hong Kong.
+<img src="images/thumbnail_tpo_1.png"/>
+Photo by <a href="https://unsplash.com/@sigmund?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Sigmund</a> on <a href="https://unsplash.com/photos/CwTfKH5edSk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+*I owe the inspiration for this idea to William Wai Him Tsang and Professor Yue Chim Richard Wong for their decades-long work advocating for a subsidized homeownership scheme in Hong Kong.*
 
 ### Summary
 This recommendation advocates for a Tenant Purchase Option for all public housing units in the US. Under this policy, HUD will permit state and local housing agencies (HAs) to sell a public housing unit to its existing tenant at a below fair-market price, subject to minimal qualifying criteria. By selling public housing units, HAs can unlock currently non-transferrable land value, increase homeownership, create new wealth that accrues to the poor, improve state and local public finances, free up units under the Faircloth Limit, and most of all, increase housing supply.

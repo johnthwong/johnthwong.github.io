@@ -30,18 +30,19 @@ Check out a similar coding file that generated the visualization below here: [ht
 
 ---
 
-## [Equal Liberal Rights Are Necessary for Growth](https://johnthwong.github.io/page_ajr)
-I replicated Acemoglu et al.'s classic study on the effects of colonial institutional quality on modern-day growth. I use an updated dataset on growth and replace the treatment variable (originally expropriation risk) with Freedom House's country-level indices on both the quality of democracy and civil liberties. 
-<br>
-<br>
-Turns out, better political and civil rights on their own can drive even more growth than just better property rights alone. [Read more](https://johnthwong.github.io/page_ajr)
-<br>
-<br>
-<img src="images/thumbnail_ajr_table_2_small.png?raw=true"/>
-<br>
-<br>
+## [Give US Public Housing Residents to Purchase Their Flat](https://johnthwong.github.io/page_tpo)
+I recently wrote a policy memo for the Federation of American Scientists' call for federal policy ideas for increasing housing supply. By selling public housing units, we can unlock currently non-transferrable land value, increase homeownership, create new wealth that accrues to the poor, improve state and local public finances, free up units under the Faircloth Limit, and most of all, increase housing supply.
 
----
+<br>
+<br>
+<img src="images/thumbnail_tpo_1.png"/>
+
+Photo by <a href="https://unsplash.com/@sigmund?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Sigmund</a> on <a href="https://unsplash.com/photos/CwTfKH5edSk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
+
+—--
+
+
 
 ## [Dear HKMA: Mandate Banks to Use the Discount Window](https://johnthwong.github.io/page_dw)
 I wrote in a policy memo in December 2022 that the HKMA (Hong Kong's central bank) should regularly mandate random banks to use the discount window (DW). This would prevent fluctuations in interbank borrowing costs, which hurts both mortgage borrowers and banks. [Read more](https://johnthwong.github.io/page_dw)
@@ -76,6 +77,19 @@ This project used R's dplyr and data.table libraries and also Google's Python pa
 <br>
 **RE-EM Tree for Predicting Conflict**
 <img src="images/thumbnail_conflict_pred.png"/>
+<br>
+<br>
+
+---
+
+## [Equal Liberal Rights Drive Growth](https://johnthwong.github.io/page_ajr)
+I replicated Acemoglu et al.'s classic study on the effects of colonial institutional quality on modern-day growth. I use an updated dataset on growth and replace the treatment variable (originally expropriation risk) with Freedom House's country-level indices on both the quality of democracy and civil liberties. 
+<br>
+<br>
+Turns out, better political and civil rights on their own can drive even more growth than just better property rights alone. [Read more](https://johnthwong.github.io/page_ajr)
+<br>
+<br>
+<img src="images/thumbnail_ajr_table_2_small.png?raw=true"/>
 <br>
 <br>
 
