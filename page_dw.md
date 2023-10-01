@@ -7,6 +7,8 @@ The rationale is as follows: the Hong Kong Interbank Offering Rate (HIBOR, or th
 <img src="images/thumbnail_dw_1.png?raw=true"/>
 *The Hong Kong Dollar Overnight Index Average (HONIA, an effective HKD rate of borrowing derived from volume-weighted overnight borrowing data) is plotted in red against the HKMA’s base rate (blue), which is referred to as the ceiling rate in this memo. Black dotted lines underscore days where HONIA exceeded the ceiling rate. Though HIBOR is till common parlance in local markets, financial markets have begun a transition away from HIBOR to HONIA since 2020. HIBOR and HONIA data published by the HKMA.[^2]*
 
+
+
 ### Ruling out the main suspect
 The common explanation offered for HIBOR spikes is initial public offerings (IPOs). Hong Kong is a common destination for companies to list their shares to raise funds. When an IPO closes, investors who successfully purchase shares must collectively make transfers to the fundraiser on the same day, during which the city’s banks may borrow cash in large quantities to make payments.[^3]
 
@@ -14,10 +16,11 @@ But I found that breaches occur even during days when there were no IPOs, leavin
 
 Other damning evidence: IPOs usually cause short-term rates to rise above long-term ones (leading to an “inverted yield curve”). But no inversion occurred during 17 of the 37 HIBOR spikes observed between 2019-20, i.e., borrowing costs for different maturities increased in tandem (Figure 2, purple dashed lines), which suggests IPOs were not the cause. What's more: IPO activity is supposed to highly correlate with amounts borrowed from the HKMA. But as Figure 2 shows, HIBOR spikes which did not lead to inversion also happened to coincide with dampened borrowing, meaning that not only can IPOs be ruled out as the cause for these spikes, but also that whatever is causing these spikes is also negatively correlated with discount window usage.
 
-
 **Figure 2: HKMA borrowing (red), spikes with inversion (green) and without (purple)**
 <img src="images/thumbnail_dw_2.png?raw=true"/>
 *The daily HKMA discount window borrowing is plotted in red in this selected time period. Green dashed lines mark days with HIBOR spikes with yield inversion (one-day rate higher than one-month rate). Purple dashed lines mark spikes without yield inversion. HIBOR spikes without yield inversion were not observed in any time period between 2015 to present. Discount window and HIBOR data are published by the HKMA.[^5]*
+
+
 
 ### The only solution to discount window stigma
 Mandatory borrowing would eliminate discount window stigma among banks by making voluntary borrowers indistinguishable from the involuntary and rendering any speculation on discount window activity by the market unproductive.
