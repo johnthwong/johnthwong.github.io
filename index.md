@@ -30,6 +30,17 @@ Check out a similar coding file that generated the visualization below here: [ht
 
 ---
 
+## [Do Societies With Greater Populations Innovate More?](https://johnthwong.github.io/pdf/Wong_Man_Li_Population_and_Technological_Growth.pdf)
+In this paper, we estimate how variations in population sizes across US states causally impacted these states’ capacity to produce patents. To rule out the endogeneity of fertility decisions, we estimate the difference-in-difference in births before and after the Roe ruling, and then use estimated births as an instrumental variable to predict patents per capita.
+<br>
+<br>
+**Estimating Patents Granted per Capita on Births Using Roe as an Instrumental Variable**
+<img src="images/thumbnail_roe_2.png"/>
+<br>
+<br>
+
+---
+
 ## [Give US Public Housing Residents the Right to Buy Their Flat](https://johnthwong.github.io/page_tpo)
 I recently wrote a policy memo for the Federation of American Scientists' call for federal policy ideas for increasing housing supply. By selling public housing units, we can unlock currently non-transferrable land value, increase homeownership, create new wealth that accrues to the poor, improve state and local public finances, free up units under the Faircloth Limit, and most of all, increase housing supply.
 <br>
@@ -52,15 +63,14 @@ I wrote in a policy memo in December 2022 that the HKMA (Hong Kong's central ban
 
 ---
 
-## [Do Societies With Greater Populations Innovate More?](https://arxiv.org/abs/2211.00410)
-In this paper, we estimate how variations in population sizes across US states causally impacted these states’ capacity to produce patents. To rule out the endogeneity of fertility decisions, we estimate the difference-in-difference in births before and after the Roe ruling, and then use estimated births as an instrumental variable to predict patents per capita.
+## [Equal Liberal Rights Drive Growth](https://johnthwong.github.io/page_ajr)
+I estimated the effect of liberal rights on economic growth using an instrumental variable model and drawing inspiration from Acemoglu et al.'s classic study on the institution hypothesis. I use an updated dataset on growth and Freedom House's country-level indices on both the quality of democracy and civil liberties as treatment variables. 
 <br>
 <br>
-Check out the full paper here: [https://arxiv.org/abs/2211.00410](https://arxiv.org/abs/2211.00410)
+Turns out, better political and civil rights on their own can drive even more growth than just better property rights alone. [Read more](https://johnthwong.github.io/page_ajr)
 <br>
 <br>
-**Estimating Patents Granted per Capita on Births Using Roe as an Instrumental Variable**
-<img src="images/thumbnail_roe_2.png"/>
+<img src="images/thumbnail_ajr_table_2_small.png?raw=true"/>
 <br>
 <br>
 
@@ -75,19 +85,6 @@ This project used R's dplyr and data.table libraries and also Google's Python pa
 <br>
 **RE-EM Tree for Predicting Conflict**
 <img src="images/thumbnail_conflict_pred.png"/>
-<br>
-<br>
-
----
-
-## [Equal Liberal Rights Drive Growth](https://johnthwong.github.io/page_ajr)
-I replicated Acemoglu et al.'s classic study on the effects of colonial institutional quality on modern-day growth. I use an updated dataset on growth and replace the treatment variable (originally expropriation risk) with Freedom House's country-level indices on both the quality of democracy and civil liberties. 
-<br>
-<br>
-Turns out, better political and civil rights on their own can drive even more growth than just better property rights alone. [Read more](https://johnthwong.github.io/page_ajr)
-<br>
-<br>
-<img src="images/thumbnail_ajr_table_2_small.png?raw=true"/>
 <br>
 <br>
 
