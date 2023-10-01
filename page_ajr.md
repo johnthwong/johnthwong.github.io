@@ -4,6 +4,8 @@
 
 <img src="images/thumbnail_ajr_1.jpg"/>
 Photo by <a href="https://unsplash.com/@jeffand?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jeff Anders</a> on <a href="https://unsplash.com/photos/C3nd17u38kg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+---
  
 This essay will argue that institutions play a major role throughout the lifecycle of societies, through both their rise and decline. I will first summarize empirical research by Acemoglu, Johnson, and Robinson (AJR) on the role of institutions in the economic trajectories of former colonies and evidence on coalition capture offered by Mancur Olson as an explanation for stagnation observed in developed countries. The unifying factor underlying these dynamics is the emergence of extractive institutions. I then replicate AJR’s results to argue that a broad class of liberal rights is necessary for economic growth. 
 
