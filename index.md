@@ -62,7 +62,7 @@ Photo by <a href="https://unsplash.com/@sigmund?utm_source=unsplash&utm_medium=r
 ---
 
 ## [Equal Liberal Rights Drive Growth](https://johnthwong.github.io/page_ajr)
-I estimated the effect of liberal rights on economic growth using an instrumental variable model and drawing inspiration from Acemoglu et al.'s classic study on the institution hypothesis. I use an updated dataset on growth and Freedom House's country-level indices on both the quality of democracy and civil liberties as treatment variables. [Read more](https://johnthwong.github.io/page_ajr)
+I estimated the effect of liberal rights on economic growth using an instrumental variable model and drawing inspiration from Acemoglu et al.'s classic study on the institution hypothesis. I use an updated dataset on growth and Freedom House's country-level indices on both the quality of democracy and civil liberties as treatment variables. 
 <br>
 <br>
 Turns out, better political and civil rights on their own can drive even more growth than just better property rights alone. [Read more](https://johnthwong.github.io/page_ajr)
