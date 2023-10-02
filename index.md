@@ -25,7 +25,7 @@ I wrote in a policy memo in December 2022 that the HKMA (Hong Kong's central ban
 ---
 
 ## [Do Societies With Greater Populations Innovate More?](https://johnthwong.github.io/pdf/Wong_Man_Li_Population_and_Technological_Growth.pdf)
-In this paper, we estimate how variations in population sizes across US states causally impacted these states’ capacity to produce patents. To rule out the endogeneity of fertility decisions, we estimate the difference-in-difference in births before and after the Roe ruling, and then use estimated births as an instrumental variable to predict patents per capita.
+In this paper, we estimate how variations in population sizes across US states causally impacted these states’ capacity to produce patents. To rule out the endogeneity of fertility decisions, we estimate the difference-in-difference in births before and after the Roe ruling, and then use estimated births as an instrumental variable to predict patents per capita. [Read more](https://johnthwong.github.io/pdf/Wong_Man_Li_Population_and_Technological_Growth.pdf)
 <br>
 <br>
 **Estimating Patents Granted per Capita on Births Using Roe as an Instrumental Variable**
@@ -52,7 +52,7 @@ Check out a similar coding file that generated the visualization below here: [ht
 ---
 
 ## [Give US Public Housing Residents the Right to Buy Their Flat](https://johnthwong.github.io/page_tpo)
-I recently wrote a policy memo for the Federation of American Scientists' call for federal policy ideas for increasing housing supply. By selling public housing units, we can unlock currently non-transferrable land value, increase homeownership, create new wealth that accrues to the poor, improve state and local public finances, free up units under the Faircloth Limit, and most of all, increase housing supply.
+I recently wrote a policy memo for the Federation of American Scientists' call for federal policy ideas for increasing housing supply. By selling public housing units, we can unlock currently non-transferrable land value, increase homeownership, create new wealth that accrues to the poor, improve state and local public finances, free up units under the Faircloth Limit, and most of all, increase housing supply. [Read more](https://johnthwong.github.io/page_tpo)
 <br>
 <br>
 <img src="images/thumbnail_tpo_1.jpg"/>
@@ -62,7 +62,7 @@ Photo by <a href="https://unsplash.com/@sigmund?utm_source=unsplash&utm_medium=r
 ---
 
 ## [Equal Liberal Rights Drive Growth](https://johnthwong.github.io/page_ajr)
-I estimated the effect of liberal rights on economic growth using an instrumental variable model and drawing inspiration from Acemoglu et al.'s classic study on the institution hypothesis. I use an updated dataset on growth and Freedom House's country-level indices on both the quality of democracy and civil liberties as treatment variables. 
+I estimated the effect of liberal rights on economic growth using an instrumental variable model and drawing inspiration from Acemoglu et al.'s classic study on the institution hypothesis. I use an updated dataset on growth and Freedom House's country-level indices on both the quality of democracy and civil liberties as treatment variables. [Read more](https://johnthwong.github.io/page_ajr)
 <br>
 <br>
 Turns out, better political and civil rights on their own can drive even more growth than just better property rights alone. [Read more](https://johnthwong.github.io/page_ajr)
@@ -75,7 +75,7 @@ Turns out, better political and civil rights on their own can drive even more gr
 ---
 
 ## [Predicting Conflict in Developing Regions Using Machine Learning Decision Trees](https://johnthwong.github.io/pdf/Li_Wong_Pye_Ling_Conflict_Prediction.pdf)
-As part of a term assignment, we predicted the likelihood of armed conflicts within 50-kilometer squares by fitting a large panel of predictors to both a decision tree model specifically designed for panel data (RE-EM tree) and an artificial neural network. 
+As part of a term assignment, we predicted the likelihood of armed conflicts within 50-kilometer squares by fitting a large panel of predictors to both a decision tree model specifically designed for panel data (RE-EM tree) and an artificial neural network. [Read more](https://johnthwong.github.io/pdf/Li_Wong_Pye_Ling_Conflict_Prediction.pdf)
 <br>
 <br>
 This project used R's dplyr and data.table libraries and also Google's Python package—Keras—for interfacing with Tensorflow.
