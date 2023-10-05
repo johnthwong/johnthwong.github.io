@@ -11,12 +11,14 @@ The rationale is as follows: the Hong Kong Interbank Offering Rate (HIBOR, or th
 
 ---
 
-### Ruling out the main suspect
-The common explanation offered for HIBOR spikes is initial public offerings (IPOs). Hong Kong is a common destination for companies to list their shares to raise funds. When an IPO closes, investors who successfully purchase shares must collectively make transfers to the fundraiser on the same day, during which the city’s banks may borrow cash in large quantities to make payments.[^3]
+### It's stigma, not IPOs
+The common explanation offered for HIBOR spikes is initial public offerings (IPOs). Hong Kong is a common destination for companies to list their shares to raise funds. When an IPO closes, investors who successfully purchase shares must collectively make transfers to the fundraiser on the same day, during which the city’s banks may borrow cash in large quantities to make payments.[^3] 
 
-But I found that breaches occur even during days when there were no IPOs, leaving DW stigma as the most likely explanation.[^4] One likely reason for stigma is that utilizing the HKMA's lending programs might suggest to investors that the borrowing bank is unable to convince other banks to lend. Investors could in turn assume that the bank is financially distressed and divest. 
+But I found that breaches occur even during days when there were no IPOs. This is confirmed by further analysis: IPOs usually cause short-term rates to rise above long-term ones (leading to an “inverted yield curve”). But no inversion occurred during 17 of the 37 HIBOR spikes observed between 2019-20, i.e., borrowing costs for different maturities increased in tandem (Figure 2, purple dashed lines), which suggests IPOs were not the cause. 
 
-Other damning evidence: IPOs usually cause short-term rates to rise above long-term ones (leading to an “inverted yield curve”). But no inversion occurred during 17 of the 37 HIBOR spikes observed between 2019-20, i.e., borrowing costs for different maturities increased in tandem (Figure 2, purple dashed lines), which suggests IPOs were not the cause. What's more: IPO activity is supposed to highly correlate with amounts borrowed from the HKMA. But as Figure 2 shows, HIBOR spikes which did not lead to inversion also happened to coincide with dampened borrowing, meaning that not only can IPOs be ruled out as the cause for these spikes, but also that whatever is causing these spikes is also negatively correlated with discount window usage.
+The most damning evidence is as follows: IPO activity is supposed to highly correlate with amounts borrowed from the HKMA. But as Figure 2 shows, HIBOR spikes which did not lead to inversion also happened to coincide with dampened borrowing, meaning that not only can IPOs be ruled out as the cause for these spikes, but also that whatever is causing these spikes is also negatively correlated with discount window usage.
+
+All observations point to discount window stigma as the cause for interest rate spikes.[^4] Stigma exists because utilizing the HKMA's lending programs might suggest to investors that the borrowing bank is unable to convince other banks to lend. Investors could in turn assume that the bank is financially distressed and divest. In the US interbank lending market, stigma exists despite that access of the Fed’s lending program is kept confidential, leading to scholars to speculate that the interconnectedness of interbank markets allows participants to infer the borrower’s identity.  
 
 ---
 
@@ -27,9 +29,9 @@ Other damning evidence: IPOs usually cause short-term rates to rise above long-t
 ---
 
 ### The only solution to discount window stigma
-Mandatory borrowing would eliminate discount window stigma among banks by making voluntary borrowers indistinguishable from the involuntary and rendering any speculation on discount window activity by the market unproductive.
+Under the policy of randomized mandatory borrowing, the HKMA would unilaterally make short-term deposits of sufficiently large amounts, with regular frequency but at randomly varying times, to randomized recipients each time. The objective of the policy is to regularize usage of the HKMA’s lending program, while making it no longer possible for the market to connect the program's usage with insolvency, as borrowing could be involuntarily initiated.  
 
-Mandatory borrowing would be more effective than two alternatives. The first is increasing discount window opacity. The Fed currently does not disclose borrower identity for two years, yet discount window stigma still exists among US banks. The second is lowering the Base Rate: similar cuts by the Fed [failed](https://www.sciencedirect.com/science/article/abs/pii/S0304405X15001452) to stimulate discount window usage in the wake of the '08 Financial Crisis.
+Randomized mandatory borrowing would be more effective than two alternatives. The first is increasing discount window opacity. The Fed currently does not disclose borrower identity for two years, yet discount window stigma still exists among US banks. The second is lowering the Base Rate: similar cuts by the Fed [failed](https://www.sciencedirect.com/science/article/abs/pii/S0304405X15001452) to stimulate discount window usage in the wake of the '08 Financial Crisis.
 
 ### Less breaches, less mortgage overpayment
 The foremost benefit to a destigmatized discount window would be to save homeowners money. Overnight yield spikes can drive a parallel shift in the yield curve. Given that most mortgages in Hong Kong reference the one-month HIBOR, homeowners would overpay. There were 37 days between 2019-20 with upward-sloping yield curves and HIBOR breaches simultaneously. I estimated that mortgage borrowers overpaid between US$15.1 million to US$92.4 million in interest across these days.[^6]
