@@ -18,7 +18,7 @@ But I found that breaches occur even during days when there were no IPOs. This i
 
 The most damning evidence is as follows: IPO activity is supposed to highly correlate with amounts borrowed from the HKMA. But as Figure 2 shows, HIBOR spikes which did not lead to inversion also happened to coincide with dampened borrowing, meaning that not only can IPOs be ruled out as the cause for these spikes, but also that whatever is causing these spikes is also negatively correlated with discount window usage.
 
-All observations point to discount window stigma as the cause for interest rate spikes.[^4] Stigma exists because utilizing the HKMA's lending programs might suggest to investors that the borrowing bank is unable to convince other banks to lend. Investors could in turn assume that the bank is financially distressed and divest. In the US interbank lending market, stigma exists despite that access of the Fed’s lending program is kept confidential, leading to scholars to speculate that the interconnectedness of interbank markets allows participants to infer the borrower’s identity.  
+All observations point to discount window stigma as the cause for interest rate spikes.[^4] Stigma exists because utilizing the HKMA's lending programs might suggest to investors that the borrowing bank is unable to convince other banks to lend. Investors could in turn assume that the bank is financially distressed and divest. In the US interbank lending market, stigma exists despite that access of the Fed’s lending program is kept confidential, leading scholars to speculate that the interconnectedness of interbank markets allows participants to infer the borrower’s identity.  
 
 ---
 
