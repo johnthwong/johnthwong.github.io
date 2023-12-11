@@ -2,6 +2,13 @@
 
 ---
 
+## Regulation and Growth: US States' Age as Identification Strategy
+I'm working on an upcoming paper that uses the mechanism of institutional sclerosis to create an exogenous variation in regulatory accumulation. This project leverages QuantGov's [State RegData](https://www.reghub.ai/data/bulk).
+<br>
+<br>
+
+---
+
 ## [Web Scraper for Subsidized Housing Transaction Data](https://github.com/johnthwong/housing-authority-scraper)
 The Housing Authority's data on subsidized housing transactions is notoriously difficult to access as the data must be requested by month, each with a separate web form. So I developed a scraper that automatically submits forms and gathers transaction count in each month into one spreadsheet. 
 
