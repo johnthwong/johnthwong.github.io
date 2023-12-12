@@ -3,7 +3,10 @@
 ---
 
 ## Regulation and Growth: US States' Age as Identification Strategy
-I'm working on an upcoming paper that uses the mechanism of institutional sclerosis to create an exogenous variation in regulatory accumulation. This project leverages QuantGov's [State RegData](https://www.reghub.ai/data/bulk).
+I'm writing a paper with [Dr. Patrick McLaughlin](https://www.mercatus.org/scholars/patrick-mclaughlin) on using the mechanism of institutional sclerosis to create an exogenous variation in regulatory accumulation. This project leverages QuantGov's [State RegData](https://www.reghub.ai/data/bulk).
+<br>
+<br>
+<img src="images/Rplot_olson_reg_age.png"/>
 <br>
 <br>
 
