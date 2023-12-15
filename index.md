@@ -25,7 +25,7 @@ Built with Python and Selenium. Check it out here: [https://github.com/johnthwon
 ---
 
 ## [What is the Cause of Interest Rate Volatility in Interbank Markets?](https://johnthwong.github.io/pdf/paper_dw.pdf)
-I demonstrate in this analysis that a common explanation for volatile interest rates isn't true. I make the recommendation that Hong Kong's central bank regularly mandate random banks to use its lending facility. [Read more](https://johnthwong.github.io/pdf/paper_dw.pdf)
+I demonstrate in this analysis that contrary to conventional wisdom, interest rate volatility isn't caused by liquidity crunches subsequent to initial public offerings. I make the recommendation that Hong Kong's central bank mandate random banks to use its lending facility. [Read more](https://johnthwong.github.io/pdf/paper_dw.pdf)
 
 **When HIBOR (red) Breaches the Base Rate (blue)**
 <img src="images/thumbnail_dw_1.png"/>
