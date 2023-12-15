@@ -2,7 +2,7 @@
 
 ---
 
-## Estimating the Cost of Regulatory Accumulation: US States' Age as Identification Strategy
+## Estimating the Cost of Regulatory Accumulation: US States' Age as Identification Strategy(https://johnthwong.github.io/pdf/paper_olson.pdf)
 I'm writing a paper with [Dr. Patrick McLaughlin](https://www.mercatus.org/scholars/patrick-mclaughlin) on using state age to create an exogenous variation in regulatory accumulation. This project leverages QuantGov's [State RegData](https://www.reghub.ai/data/bulk).
 <br>
 <br>
