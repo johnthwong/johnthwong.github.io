@@ -5,7 +5,7 @@
 ## Works in Progress
 
 ### How Complex Has the Tax Code Become? A Measure Derived from Tax Liability
-Using publicly-available consumer expenditure data and NBER's TAXSIM program, I construct a direct empirical measure of tax code complexity that encompasses all federal and state taxes and their incidence, in addition deductions and credits and the degree to which these tax expenditures are utilized.
+Using publicly-available consumer expenditure data and NBER's TAXSIM program, I construct a direct empirical measure of tax code complexity that encompasses the incidence of all federal and state taxes and the utilization of all deductions and credits.
 <br>
 <br>
 
