@@ -1,4 +1,4 @@
-# Selected Projects in Data Science and Econometrics
+# Projects in Econometrics and Data Science
 
 ---
 
