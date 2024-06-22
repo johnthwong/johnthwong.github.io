@@ -2,7 +2,49 @@
 
 ---
 
-## [Estimating the Cost of Regulatory Accumulation: US States' Age as Identification Strategy](https://johnthwong.github.io/pdf/paper_olson.pdf)
+## Works in Progress
+
+### How Complex Has the Tax Code Become? A Measure Derived from Tax Liability
+Using publicly available consumer expenditure data and NBER's TAXSIM program, I construct a direct empirical measure of tax complexity.
+<br>
+<br>
+
+---
+
+### How Monopolistic is iMessage?
+To what extent does iMessage confer a monopolistic advantage to Apple? I estimate how much the service changes the demand elasticity for iPhones.
+<br>
+<br>
+
+---
+
+### Social Security: Cost-Benefit Measured as Expected Spending Per Unit of Risk Reduction
+I investigate whether various Social Security programs, in conjunction, provide additional value of risk insurance per dollar that is overlooked by separate evaluations of each program. I am using Health and Retirement Study panel data to examine how much the beneficiaries of retirement and disability income payments overlap.
+<br>
+<br>
+
+---
+
+
+### Estimating the Effects of Regulation on the Demand for STEM
+The count of regulatory restrictions on the financial services industry is highest compared to all other industries. The industry has also seen the third-highest average growth in restrictions in the past two decades. Despite this, labor productivity in financial services has also grown faster than in other sectors. The contribution of this paper is to explain this joint phenomena of regulatory and productivity growth in finance.
+
+With Christos Makridis and Patrick McLaughlin.
+<br>
+<br>
+
+---
+
+### Income Mobility and Regulation: Evidence from Canadian Immigrants
+Using a panel of measures of immigrant mobility from Statistics Canada and a shift-share instrument, we measure how much liberalization affects immigrants' economic outcomes.
+
+With Vincent Geloso and James Dean.
+
+---
+
+## Working Papers
+
+### [Estimating the Cost of Regulatory Accumulation: US States' Age as Identification Strategy](https://johnthwong.github.io/pdf/paper_olson.pdf)
 I'm writing a paper with [Dr. Patrick McLaughlin](https://www.mercatus.org/scholars/patrick-mclaughlin) on using state age to create an exogenous variation in regulatory accumulation. This project leverages QuantGov's [State RegData](https://www.reghub.ai/data/bulk).
 <br>
 <br>
@@ -12,7 +54,19 @@ I'm writing a paper with [Dr. Patrick McLaughlin](https://www.mercatus.org/schol
 
 ---
 
-## [Web Scraper for Subsidized Housing Transaction Data](https://github.com/johnthwong/housing-authority-scraper)
+### [What Is the Cause of Interest Rate Volatility in Interbank Markets?](https://johnthwong.github.io/pdf/paper_dw.pdf)
+I demonstrate in this analysis that contrary to conventional wisdom, interest rate volatility isn't caused by liquidity crunches subsequent to initial public offerings. [Read more](https://johnthwong.github.io/pdf/paper_dw.pdf)
+
+**When HIBOR (red) Breaches the Base Rate (blue)**
+<img src="images/thumbnail_dw_1.png"/>
+<br>
+<br>
+
+---
+
+## Past Projects
+
+### [Web Scraper for Subsidized Housing Transaction Data](https://github.com/johnthwong/housing-authority-scraper)
 The Housing Authority's data on subsidized housing transactions is notoriously difficult to access as the data must be requested by month, each with a separate web form. So I developed a scraper that automatically submits forms and gathers transaction count in each month into one spreadsheet. 
 
 Built with Python and Selenium. Check it out here: [https://github.com/johnthwong/housing-authority-scraper](https://github.com/johnthwong/housing-authority-scraper)
@@ -24,17 +78,7 @@ Built with Python and Selenium. Check it out here: [https://github.com/johnthwon
 
 ---
 
-## [What Is the Cause of Interest Rate Volatility in Interbank Markets?](https://johnthwong.github.io/pdf/paper_dw.pdf)
-I demonstrate in this analysis that contrary to conventional wisdom, interest rate volatility isn't caused by liquidity crunches subsequent to initial public offerings. [Read more](https://johnthwong.github.io/pdf/paper_dw.pdf)
-
-**When HIBOR (red) Breaches the Base Rate (blue)**
-<img src="images/thumbnail_dw_1.png"/>
-<br>
-<br>
-
----
-
-## [Visualization of the Hong Kong's Forex Reserves](https://github.com/johnthwong/hkma)
+### [Visualization of the Hong Kong's Forex Reserves](https://github.com/johnthwong/hkma)
 After a drop in the balances of accounts held at the central bank by commercial banks (aka "Aggregate Balance") in the summer of 2022, there was [panic](https://www.bloomberg.com/news/articles/2022-07-26/hong-kong-liquidity-shrinks-50-since-may-amid-currency-defense) that Hong Kong's currency peg with the USD would break. In response, I wrote an internal report on why "Aggregate Balance" is insignificant and not worth freaking out about.
 <br>
 <br>
@@ -50,7 +94,7 @@ Check out a similar coding file that generated the visualization below here: [ht
 
 ---
 
-## [Give US Public Housing Residents the Right to Buy Their Flat](https://johnthwong.github.io/page_tpo)
+### [Give US Public Housing Residents the Right to Buy Their Flat](https://johnthwong.github.io/page_tpo)
 I recently wrote a policy memo for the Federation of American Scientists' call for federal policy ideas for increasing housing supply. By selling public housing units, we can unlock currently non-transferrable land value, increase homeownership, create new wealth that accrues to the poor, improve state and local public finances, free up units under the Faircloth Limit, and most of all, increase housing supply. [Read more](https://johnthwong.github.io/page_tpo)
 <br>
 <br>
