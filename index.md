@@ -33,6 +33,8 @@ With Vincent Geloso and James Dean.
 <br>
 <br>
 
+---
+
 ## Working Papers
 
 ### [Estimating the Cost of Regulatory Accumulation: US States' Age as Identification Strategy](https://johnthwong.github.io/pdf/paper_olson.pdf)
