@@ -95,5 +95,5 @@ Photo by <a href="https://unsplash.com/@sigmund?utm_source=unsplash&utm_medium=r
 ### [Reclassifying Civil Servants as Political Appointees Is Just Bad](https://www.progressivepolicy.org/blogs/trumps-schedule-f-would-transform-the-civil-service-to-weaponize-government/)
 I co-authored a short piece, published with Progressive Policy Institute, highlighting the *most* insidious part of the 45th's agenda for a potential second term: Schedule F.
 
-### [Compossible Rights Must Restrict Speech](https://philpapers.org/rec/WONCRM)
-My political philosophy thesis where I do conceptual analysis on rights. Received an A+ and has since seen over 200 downloads!
+### [Can a Coherent Free Speech Regime Allow Incitement?](https://philpapers.org/rec/WONCRM)
+My political philosophy thesis where I do conceptual analysis on legal rights. Received an A+. It has been downloaded over 200 times as of August 2024!
