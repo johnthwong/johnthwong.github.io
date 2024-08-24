@@ -96,4 +96,4 @@ Photo by <a href="https://unsplash.com/@sigmund?utm_source=unsplash&utm_medium=r
 I co-authored a short piece, published with Progressive Policy Institute, highlighting the *most* insidious part of the 45th's agenda for a potential second term: Schedule F.
 
 ### [Can a Coherent Free Speech Regime Allow Incitement?](https://philpapers.org/rec/WONCRM)
-My political philosophy thesis where I do conceptual analysis on legal rights. Received an A+. It has been downloaded over 200 times as of August 2024!
+My political philosophy thesis where I do conceptual analysis on legal rights. Received an A+. As of August 2024, it has been downloaded over 200 times(!), placing it in the top decile of all political philosophy papers.
