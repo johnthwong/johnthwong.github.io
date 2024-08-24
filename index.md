@@ -5,7 +5,7 @@
 ## Working Papers
 
 ### [Estimating the Cost of Regulatory Accumulation: US States' Age as Identification Strategy](https://johnthwong.github.io/pdf/paper_olson.pdf)
-I'm writing a paper with **[Patrick McLaughlin](https://www.mercatus.org/scholars/patrick-mclaughlin)** on using state age to create an exogenous variation in regulatory accumulation. This project leverages QuantGov's [State RegData](https://www.reghub.ai/data/bulk).
+I'm writing a paper with **[Patrick McLaughlin](https://www.mercatus.org/scholars/patrick-mclaughlin)** on using state age to create an exogenous variation in regulatory accumulation. This project leverages the QuantGov project's **[State RegData](https://www.reghub.ai/data/bulk)**.
 <br>
 <br>
 <img src="images/Rplot_olson_reg_age.png"/>
@@ -68,7 +68,7 @@ Built with Python and Selenium. Check it out here: [https://github.com/johnthwon
 <br>
 
 ### [Visualization of the Hong Kong's Forex Reserves](https://github.com/johnthwong/hkma)
-After a drop in the balances of accounts held at the central bank by commercial banks (aka "Aggregate Balance") in the summer of 2022, there was [panic](https://www.bloomberg.com/news/articles/2022-07-26/hong-kong-liquidity-shrinks-50-since-may-amid-currency-defense) that Hong Kong's currency peg with the USD would break. In response, I wrote an internal report on why "Aggregate Balance" is insignificant and not worth freaking out about.
+After a drop in the balances of accounts held at the central bank by commercial banks (aka "Aggregate Balance") in the summer of 2022, there was **[panic](https://www.bloomberg.com/news/articles/2022-07-26/hong-kong-liquidity-shrinks-50-since-may-amid-currency-defense)** that Hong Kong's currency peg with the USD would break. In response, I wrote an internal report on why "Aggregate Balance" is insignificant and not worth freaking out about.
 <br>
 <br>
 This project uses the Hong Kong Monetary Authority's JSON API. Data manipulation and visualization are done with R's dplyr and ggplot libraries.
@@ -92,8 +92,8 @@ Photo by <a href="https://unsplash.com/@sigmund?utm_source=unsplash&utm_medium=r
 
 ## Non-Econ Projects
 
-### [Schedule F Is Bad](https://www.progressivepolicy.org/blogs/trumps-schedule-f-would-transform-the-civil-service-to-weaponize-government/)
-I co-authored a short piece with Progressive Policy Institute, highlighting the *most* insidious part of the 45th's agenda.
+### [Reclassifying Civil Servants as Political Appointees Is Just Bad](https://www.progressivepolicy.org/blogs/trumps-schedule-f-would-transform-the-civil-service-to-weaponize-government/)
+I co-authored a short piece with Progressive Policy Institute, highlighting the *most* insidious part of the 45th's agenda for a potential second term: Schedule F.
 
 ### [Compossible Rights Must Restrict Speech](https://philpapers.org/rec/WONCRM)
 My political philosophy thesis where I do conceptual analysis on rights. Received an A+ and has since seen over 200 downloads!
