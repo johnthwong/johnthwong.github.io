@@ -82,7 +82,7 @@ Check out a similar coding file that generated the visualization below here: [ht
 <br>
 
 ### [Give US Public Housing Residents the Right to Buy Their Flat](https://johnthwong.github.io/page_tpo)
-I recently wrote a policy memo for the Federation of American Scientists' call for federal policy ideas for increasing housing supply. By selling public housing units, we can unlock currently non-transferrable land value, increase homeownership, create new wealth that accrues to the poor, improve state and local public finances, free up units under the Faircloth Limit, and most of all, increase housing supply. [Read more](https://johnthwong.github.io/page_tpo)
+I submitted a policy memo to the Federation of American Scientists' call for federal policy ideas for increasing housing supply. By selling public housing units, we can unlock currently non-transferrable land value, increase homeownership, create new wealth that accrues to the poor, improve state and local public finances, free up units under the Faircloth Limit, and most of all, increase housing supply. [Read more](https://johnthwong.github.io/page_tpo)
 <br>
 <br>
 <img src="images/thumbnail_tpo_1.jpg"/>
@@ -90,10 +90,10 @@ Photo by <a href="https://unsplash.com/@sigmund?utm_source=unsplash&utm_medium=r
 
 ---
 
-## Non-Econ Stuff
+## Non-Econ Projects
 
 ### [Schedule F Is Bad](https://www.progressivepolicy.org/blogs/trumps-schedule-f-would-transform-the-civil-service-to-weaponize-government/)
 I co-authored a short piece with Progressive Policy Institute, highlighting the *most* insidious part of the 45th's agenda.
 
-### [Compossible Rights Must Restrict Speech](https://github.com/johnthwong/housing-authority-scraper)(https://philpapers.org/rec/WONCRM)
+### [Compossible Rights Must Restrict Speech](https://philpapers.org/rec/WONCRM)
 My political philosophy thesis where I do conceptual analysis on rights. Received an A+ and has since seen over 200 downloads!
