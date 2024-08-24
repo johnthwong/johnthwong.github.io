@@ -1,4 +1,16 @@
-# Projects in Econometrics and Data Science
+# Economic Research
+
+---
+
+## Working Papers
+
+### [Estimating the Cost of Regulatory Accumulation: US States' Age as Identification Strategy](https://johnthwong.github.io/pdf/paper_olson.pdf)
+I'm writing a paper with **[Patrick McLaughlin](https://www.mercatus.org/scholars/patrick-mclaughlin)** on using state age to create an exogenous variation in regulatory accumulation. This project leverages QuantGov's [State RegData](https://www.reghub.ai/data/bulk).
+<br>
+<br>
+<img src="images/Rplot_olson_reg_age.png"/>
+<br>
+<br>
 
 ---
 
@@ -19,6 +31,14 @@ I investigate whether various Social Security programs, in conjunction, provide 
 <br>
 <br>
 
+### [What Is the Cause of Interest Rate Volatility in Interbank Markets?](https://johnthwong.github.io/pdf/paper_dw.pdf)
+I demonstrate in this analysis that contrary to conventional wisdom, interest rate volatility isn't caused by liquidity crunches subsequent to initial public offerings. [Read more](https://johnthwong.github.io/pdf/paper_dw.pdf)
+
+**When HIBOR (red) Breaches the Base Rate (blue)**
+<img src="images/thumbnail_dw_1.png"/>
+<br>
+<br>
+
 ### Estimating the Effects of Regulation on the Demand for STEM
 The count of regulatory restrictions on the financial services industry is highest compared to all other industries. The industry has also seen the third-highest average growth in restrictions in the past two decades. Despite this, labor productivity in financial services has also grown faster than in other sectors. The contribution of this paper is to explain this joint phenomena of regulatory and productivity growth in finance.
 
@@ -30,26 +50,6 @@ With Christos Makridis and Patrick McLaughlin.
 Using a panel of measures of immigrant mobility from Statistics Canada and a shift-share instrument, we measure how much liberalization affects immigrants' economic outcomes.
 
 With Vincent Geloso and James Dean.
-<br>
-<br>
-
----
-
-## Working Papers
-
-### [Estimating the Cost of Regulatory Accumulation: US States' Age as Identification Strategy](https://johnthwong.github.io/pdf/paper_olson.pdf)
-I'm writing a paper with [Dr. Patrick McLaughlin](https://www.mercatus.org/scholars/patrick-mclaughlin) on using state age to create an exogenous variation in regulatory accumulation. This project leverages QuantGov's [State RegData](https://www.reghub.ai/data/bulk).
-<br>
-<br>
-<img src="images/Rplot_olson_reg_age.png"/>
-<br>
-<br>
-
-### [What Is the Cause of Interest Rate Volatility in Interbank Markets?](https://johnthwong.github.io/pdf/paper_dw.pdf)
-I demonstrate in this analysis that contrary to conventional wisdom, interest rate volatility isn't caused by liquidity crunches subsequent to initial public offerings. [Read more](https://johnthwong.github.io/pdf/paper_dw.pdf)
-
-**When HIBOR (red) Breaches the Base Rate (blue)**
-<img src="images/thumbnail_dw_1.png"/>
 <br>
 <br>
 
@@ -86,7 +86,14 @@ I recently wrote a policy memo for the Federation of American Scientists' call f
 <br>
 <br>
 <img src="images/thumbnail_tpo_1.jpg"/>
-Photo by <a href="https://unsplash.com/@sigmund?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Sigmund</a> on <a href="https://unsplash.com/photos/CwTfKH5edSk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-  
+Photo by <a href="https://unsplash.com/@sigmund?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Sigmund</a> on <a href="https://unsplash.com/photos/CwTfKH5edSk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>  
 
 ---
+
+## Non-Econ Stuff
+
+### [Schedule F Is Bad](https://www.progressivepolicy.org/blogs/trumps-schedule-f-would-transform-the-civil-service-to-weaponize-government/)
+I co-authored a short piece with Progressive Policy Institute, highlighting the *most* insidious part of the 45th's agenda.
+
+### [Compossible Rights Must Restrict Speech](https://github.com/johnthwong/housing-authority-scraper)(https://philpapers.org/rec/WONCRM)
+My political philosophy thesis where I do conceptual analysis on rights. Received an A+ and has since seen over 200 downloads!
