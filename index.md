@@ -4,7 +4,7 @@
 
 ## Working Papers
 
-### [Cost of Regulatory Accumulation: US States' Age as Identification](https://johnthwong.github.io/pdf/paper_olson.pdf)
+### [The Causal Effect of Regulation on Economic Growth: Evidence From the US States](https://johnthwong.github.io/pdf/paper_olson.pdf)
 I'm writing a paper with **[Patrick McLaughlin](https://www.mercatus.org/scholars/patrick-mclaughlin)** on using state age to create an exogenous variation in regulatory accumulation. This project leverages the QuantGov project's **[State RegData](https://www.reghub.ai/data/bulk)**.
 <br>
 <br>
