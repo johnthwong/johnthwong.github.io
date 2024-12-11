@@ -51,13 +51,6 @@ I demonstrate in this analysis that contrary to conventional wisdom, interest ra
 <br>
 <br>
 
-### Estimating the Effects of Regulation on the Demand for STEM
-The count of regulatory restrictions on the financial services industry is highest compared to all other industries. The industry has also seen the third-highest average growth in restrictions in the past two decades. Despite this, labor productivity in financial services has also grown faster than in other sectors. The contribution of this paper is to explain this joint phenomena of regulatory and productivity growth in finance.
-
-With Christos Makridis and Patrick McLaughlin.
-<br>
-<br>
-
 ### Income Mobility and Regulation: Evidence from Canadian Immigrants
 Using a panel of measures of immigrant mobility from Statistics Canada and a shift-share instrument, we measure how much liberalization affects immigrants' economic outcomes.
 
