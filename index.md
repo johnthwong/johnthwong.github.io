@@ -12,8 +12,15 @@ I'm writing a paper with **[Patrick McLaughlin](https://www.mercatus.org/scholar
 <br>
 <br>
 
-### A Lot of the Federal Debt is Interest
-We know that each year, net interest costs on the federal debt is about 2 percent of GDP. But how does this add up over the years? How much of the federal debt comes from accumulated interest on past deficits, and is the amount larger than annual deficits? And how much interest is attributable to accumulated past interest? (Forthcoming)
+---
+
+## Essays
+
+### [Most U.S. Government Borrowing Just Pays for More Borrowing](https://www.progressivepolicy.org/most-u-s-government-borrowing-just-pays-for-more-borrowing/)
+Nearly 40 percent of U.S. government debt today was issued just to cover interest on previous debt, and this problem is poised to worsen as recent borrowing accrues interest and Congress further cuts revenue. Read more at [Progressive Policy Institute](https://www.progressivepolicy.org/most-u-s-government-borrowing-just-pays-for-more-borrowing/).
+<br>
+<br>
+<img src="images/debt_interest_share.png"/>
 <br>
 <br>
 
