@@ -8,7 +8,9 @@
 I'm writing a paper with **[Patrick McLaughlin](https://www.mercatus.org/scholars/patrick-mclaughlin)** on using state age to estimate how increasing regulation causally affects growth. This project leverages the QuantGov project's **[State RegData](https://www.reghub.ai/data/bulk)**.
 
 **Read more:**
+<br>
 [Mercatus Working Paper (Dec 20 2024)](https://www.mercatus.org/research/working-papers/causal-effect-regulations-economic-growth-evidence-us-states)
+<br>
 [Latest Working Draft](https://johnthwong.github.io/pdf/paper_olson.pdf)
 <br>
 <br>
