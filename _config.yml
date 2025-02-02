@@ -2,12 +2,7 @@ title: John Wong # your name (or website title) here
 logo: # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
   <br>
-  I conduct economic research and analyze public policy. I am currently a Fiscal Policy Fellow at Progressive Policy Institute. I am also a Fellow with Mercatus Center.
-  <br>
-  <br>
-  <a href="https://www.progressivepolicy.org/people/john-wong/">PPI Profile</a>  
-  <br>
-  <a href="https://www.mercatus.org/students/fellows/john-wong">Mercatus Profile</a> 
+  I am currently a Policy Modeling Fellow with PolicyEngine. Formerly <a href="https://www.progressivepolicy.org/people/john-wong/">PPI</a>.
   
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
