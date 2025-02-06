@@ -4,14 +4,14 @@
 
 ## Working Papers
 
-### [The Causal Effect of Regulation on Economic Growth: Evidence From the US States](https://github.com/johnthwong/causal-reg/blob/0caa4285cc36e935ae932822d39c39376b137111/write-up.pdf)
+### [The Causal Effect of Regulation on Economic Growth: Evidence From the US States](https://github.com/johnthwong/reg-growth/blob/3a239c586cdf3bfa44faa8478f17fcceec967a04/write-up.pdf)
 I'm writing a paper with **[Patrick McLaughlin](https://www.mercatus.org/scholars/patrick-mclaughlin)** on using state age to estimate how increasing regulation causally affects growth. This project leverages the QuantGov project's **[State RegData](https://www.reghub.ai/data/bulk)**.
 
 **Read more:**
 <br>
 [Mercatus Working Paper (Dec 20 2024)](https://www.mercatus.org/research/working-papers/causal-effect-regulations-economic-growth-evidence-us-states)
 <br>
-[Latest Working Draft](https://github.com/johnthwong/causal-reg/blob/0caa4285cc36e935ae932822d39c39376b137111/write-up.pdf)
+[Latest Working Draft](https://github.com/johnthwong/reg-growth/blob/3a239c586cdf3bfa44faa8478f17fcceec967a04/write-up.pdf)
 <br>
 <br>
 <img src="images/Rplot_olson_reg_age.png"/>
