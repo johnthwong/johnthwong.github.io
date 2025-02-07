@@ -2,7 +2,7 @@ title: John Wong # your name (or website title) here
 logo: # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
   <br>
-  I am currently a Policy Modeling Fellow with PolicyEngine. Formerly <a href="https://www.progressivepolicy.org/people/john-wong/">PPI</a>.
+  I am currently a Policy Modeling Fellow with <a href="https://policyengine.org/us/about">PolicyEngine</a>. Formerly <a href="https://www.progressivepolicy.org/people/john-wong/">PPI</a>.
   
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
