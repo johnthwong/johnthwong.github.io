@@ -2,7 +2,7 @@
 
 ---
 
-## Under Review
+## In Peer Review
 
 ### [The Causal Effect of Regulation on Economic Growth: Evidence From the US States](https://github.com/johnthwong/reg-growth/blob/3a239c586cdf3bfa44faa8478f17fcceec967a04/write-up.pdf)
 I'm writing a paper with **[Patrick McLaughlin](https://patrickamclaughlin.com)** on using state age to estimate how increasing regulation causally affects growth. This project leverages the QuantGov project's **[State RegData](https://www.quantgov.org)**.
@@ -23,7 +23,7 @@ I'm writing a paper with **[Patrick McLaughlin](https://patrickamclaughlin.com)*
 ## Microsimulations
 
 ### [Modeling the Distributional Impact of Taxing Employees for Employer FICA Contributions](https://policyengine.org/us/policy?focus=policyOutput.winnersAndLosers.incomeDecile&reform=77152&region=us&timePeriod=2025&baseline=2&dataset=enhanced_cps)
-I added a simulation of a reform to PolicyEngine's microsimulation model. Under this reform, social security benefits would be exempt from taxation, but eemployer's half of Social Security and Medicare taxes would be treated as employee's extra income for tax purposes. This further shifts the tax burden of Social Security to working years, and we model the impact it would have on federal revenues and on inequality. (View on PolicyEngine)[https://policyengine.org/us/policy?focus=policyOutput.winnersAndLosers.incomeDecile&reform=77152&region=us&timePeriod=2025&baseline=2&dataset=enhanced_cps]
+I built a reform for PolicyEngine's microsimulation model. Under this reform, social security benefits would be exempt from taxation, but eemployer's half of Social Security and Medicare taxes would be treated as employee's extra income for tax purposes. This further shifts the tax burden of Social Security to working years, and we model the impact it would have on federal revenues and on inequality. [View on PolicyEngine](https://policyengine.org/us/policy?focus=policyOutput.winnersAndLosers.incomeDecile&reform=77152&region=us&timePeriod=2025&baseline=2&dataset=enhanced_cps)
 <br>
 <br>
 <img src="images/tax_payroll_distributional_impact.png"/>
@@ -121,9 +121,6 @@ Check out a similar coding file that generated the visualization below here: [ht
 
 ### [Give US Public Housing Residents the Right to Buy Their Flat](https://johnthwong.github.io/page_tpo)
 I submitted a policy memo to the Federation of American Scientists' call for federal policy ideas for increasing housing supply. By selling public housing units, we can unlock currently non-transferrable land value, increase homeownership, create new wealth that accrues to the poor, improve state and local public finances, free up units under the Faircloth Limit, and most of all, increase housing supply. [Read more](https://johnthwong.github.io/page_tpo)
-<br>
-<br>
-<img src="images/thumbnail_tpo_1.jpg"/>
 <br>
 <br>
 
