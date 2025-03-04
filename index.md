@@ -111,14 +111,15 @@ I submitted a policy memo to the Federation of American Scientists' call for fed
 <br>
 <br>
 <img src="images/thumbnail_tpo_1.jpg"/>
-Photo by <a href="https://unsplash.com/@sigmund?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Sigmund</a> on <a href="https://unsplash.com/photos/CwTfKH5edSk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>  
+<br>
+<br>
 
 ---
 
-## Non-Econ Projects
+# Non-Econ Writing
 
 ### [Reclassifying Civil Servants as Political Appointees Is Just Bad](https://www.progressivepolicy.org/blogs/trumps-schedule-f-would-transform-the-civil-service-to-weaponize-government/)
-I co-authored a short piece, published with Progressive Policy Institute, highlighting the *most* insidious part of the 45th's agenda for a potential second term: Schedule F.
+In July 2024, I predicted that the most far-reaching policy initiative of a second Trump term would not be tariffs or taxes, but rather its upending of the civil service. [Read more](https://www.progressivepolicy.org/blogs/trumps-schedule-f-would-transform-the-civil-service-to-weaponize-government/)
 
 ### [Can a Coherent Free Speech Regime Allow Incitement?](https://philpapers.org/rec/WONCRM)
-My political philosophy thesis where I do conceptual analysis on legal rights. Received an A+. As of August 2024, it has been downloaded over 200 times(!), placing it in the top decile of all political philosophy papers.
+My political philosophy thesis where I conduct conceptual analysis on legal rights. As of March 2025, it has been downloaded over 300 times, placing it in the top decile of all political philosophy papers. [Read more](https://philpapers.org/rec/WONCRM)
