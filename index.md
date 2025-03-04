@@ -23,7 +23,7 @@ I'm writing a paper with **[Patrick McLaughlin](https://patrickamclaughlin.com)*
 ## Microsimulations
 
 ### [Modeling the Distributional Impact of Treating Employer FICA Taxes as Employee's Taxable Income](https://policyengine.org/us/policy?focus=policyOutput.winnersAndLosers.incomeDecile&reform=77152&region=us&timePeriod=2025&baseline=2&dataset=enhanced_cps)
-I built a reform for PolicyEngine's microsimulation model. Under this reform, social security benefits would be exempt from taxation, but employer's half of Social Security and Medicare taxes would be treated as employee's extra income for tax purposes. This further shifts the tax burden of Social Security to working years, and we model the impact it would have on federal deficits and inequality. [View on PolicyEngine](https://policyengine.org/us/policy?focus=policyOutput.winnersAndLosers.incomeDecile&reform=77152&region=us&timePeriod=2025&baseline=2&dataset=enhanced_cps)
+I built a reform for PolicyEngine's microsimulation model. Under this reform, social security benefits would be exempt from taxation, but employer's half of Social Security and Medicare taxes would be treated as employee's extra income for tax purposes. This further shifts the burden of financing retirement programs to working-age adults, and we model the impact it would have on federal deficits and inequality. [View on PolicyEngine](https://policyengine.org/us/policy?focus=policyOutput.winnersAndLosers.incomeDecile&reform=77152&region=us&timePeriod=2025&baseline=2&dataset=enhanced_cps)
 <br>
 <br>
 <img src="images/tax_payroll_distributional_impact_no_heading.png"/>
