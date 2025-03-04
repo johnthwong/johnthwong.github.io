@@ -2,6 +2,23 @@
 
 ---
 
+## Microsimulations
+
+### [Modeling the Distributional Impact of Treating Employer FICA Taxes as Employee's Taxable Income](https://policyengine.org/us/policy?focus=policyOutput.winnersAndLosers.incomeDecile&reform=77152&region=us&timePeriod=2025&baseline=2&dataset=enhanced_cps)
+I coded a reform in PolicyEngine's microsimulation model. This reform, floated by others, exempts Social Security benefits from taxation while treating the employer’s share of Social Security and Medicare taxes as additional taxable income for employees. This further shifts the burden of financing retirement programs to working-age adults, and we model its impact on federal deficits and inequality. [View on PolicyEngine](https://policyengine.org/us/policy?focus=policyOutput.winnersAndLosers.incomeDecile&reform=77152&region=us&timePeriod=2025&baseline=2&dataset=enhanced_cps)
+<br>
+<br>
+<img src="images/tax_payroll_distributional_impact_no_heading.png"/>
+<br>
+<br>
+
+### [Agent-Based General Equilibrium Model](https://github.com/johnthwong/bi-exchange)
+An agent-based model of a general bilateral exchange problem of any *A* agents and any *N* goods. This model uses boundedly rational agents, in the sense that the agents iteratively make trades without knowing the optimal quantities that maximize their utility. It can obtain a decentralized, numerical solution to a general equilibrium problem. [View on Github](https://github.com/johnthwong/bi-exchange)
+<br>
+<br>
+
+---
+
 ## In Peer Review
 
 ### [The Causal Effect of Regulation on Economic Growth: Evidence From the US States](https://github.com/johnthwong/reg-growth/blob/3a239c586cdf3bfa44faa8478f17fcceec967a04/write-up.pdf)
@@ -15,23 +32,6 @@ I'm writing a paper with [Patrick McLaughlin](https://patrickamclaughlin.com) on
 <br>
 <br>
 <img src="images/Rplot_olson_reg_age.png"/>
-<br>
-<br>
-
----
-
-## Microsimulations
-
-### [Modeling the Distributional Impact of Treating Employer FICA Taxes as Employee's Taxable Income](https://policyengine.org/us/policy?focus=policyOutput.winnersAndLosers.incomeDecile&reform=77152&region=us&timePeriod=2025&baseline=2&dataset=enhanced_cps)
-I coded a reform in PolicyEngine's microsimulation model. This reform, floated by others, exempts Social Security benefits from taxation while treating the employer’s share of Social Security and Medicare taxes as additional taxable income for employees. This further shifts the burden of financing retirement programs to working-age adults, and we model its impact on federal deficits and inequality. [View on PolicyEngine](https://policyengine.org/us/policy?focus=policyOutput.winnersAndLosers.incomeDecile&reform=77152&region=us&timePeriod=2025&baseline=2&dataset=enhanced_cps)
-<br>
-<br>
-<img src="images/tax_payroll_distributional_impact_no_heading.png"/>
-<br>
-<br>
-
-### [Agent-Based General Equilibrium Model](https://github.com/johnthwong/bi-exchange)
-An agent-based model of a general bilateral exchange problem of any *A* agents and any *N* goods. This model uses boundedly rational agents, in the sense that the agents iteratively make trades without knowing the optimal quantities that maximize their utility. It can obtain a decentralized, numerical solution to a general equilibrium problem. [View on Github](https://github.com/johnthwong/bi-exchange)
 <br>
 <br>
 
