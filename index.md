@@ -5,7 +5,7 @@
 ## Under Review
 
 ### [The Causal Effect of Regulation on Economic Growth: Evidence From the US States](https://github.com/johnthwong/reg-growth/blob/3a239c586cdf3bfa44faa8478f17fcceec967a04/write-up.pdf)
-I'm writing a paper with **[Patrick McLaughlin](https://www.mercatus.org/scholars/patrick-mclaughlin)** on using state age to estimate how increasing regulation causally affects growth. This project leverages the QuantGov project's **[State RegData](https://www.reghub.ai/data/bulk)**.
+I'm writing a paper with **[Patrick McLaughlin](https://patrickamclaughlin.com)** on using state age to estimate how increasing regulation causally affects growth. This project leverages the QuantGov project's **[State RegData](https://www.quantgov.org)**.
 
 **Read more:**
 <br>
@@ -47,6 +47,7 @@ Nearly 40 percent of U.S. government debt today was issued just to cover interes
 ---
 
 ## Works in Progress
+<br>
 
 ### Learning What We Like
 A model of preference discovery with [Alex Tabarrok](https://alextabarrok.com).
@@ -72,15 +73,17 @@ I demonstrate in this analysis that contrary to conventional wisdom, interest ra
 <br>
 
 ### Income Mobility and Regulation: Evidence from Canadian Immigrants
-Using a panel of measures of immigrant mobility from Statistics Canada and a shift-share instrument, we measure how much liberalization affects immigrants' economic outcomes.
-
-With Vincent Geloso and James Dean.
+Using a panel of measures of immigrant mobility from Statistics Canada and a shift-share instrument, we measure how much liberalization affects immigrants' economic outcomes. With Vincent Geloso and James Dean.
 <br>
 <br>
 
 ---
 
-## Past Projects
+# Archive
+
+---
+
+## Older Projects
 
 ### [Web Scraper for Subsidized Housing Transaction Data](https://github.com/johnthwong/housing-authority-scraper)
 The Housing Authority's data on subsidized housing transactions is notoriously difficult to access as the data must be requested by month, each with a separate web form. So I developed a scraper that automatically submits forms and gathers transaction count in each month into one spreadsheet. 
@@ -116,9 +119,7 @@ I submitted a policy memo to the Federation of American Scientists' call for fed
 
 ---
 
-# Non-Econ Writing
-
----
+## Non-Econ Writing
 
 ### [Reclassifying Civil Servants as Political Appointees Is Just Bad](https://www.progressivepolicy.org/blogs/trumps-schedule-f-would-transform-the-civil-service-to-weaponize-government/)
 In July 2024, I predicted that the most far-reaching policy initiative of a second Trump term would not be tariffs or taxes, but rather its upending of the civil service. [Read more](https://www.progressivepolicy.org/blogs/trumps-schedule-f-would-transform-the-civil-service-to-weaponize-government/)
