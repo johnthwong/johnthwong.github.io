@@ -47,7 +47,6 @@ Nearly 40 percent of U.S. government debt today was issued just to cover interes
 ---
 
 ## Works in Progress
-<br>
 
 ### Learning What We Like
 A model of preference discovery with [Alex Tabarrok](https://alextabarrok.com).
