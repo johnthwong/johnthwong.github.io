@@ -61,8 +61,8 @@ To what extent does iMessage confer a monopolistic advantage to Apple? I estimat
 
 ### [What Is the Cause of Interest Rate Volatility in Interbank Markets?](https://johnthwong.github.io/pdf/paper_dw.pdf)
 I demonstrate in this analysis that contrary to conventional wisdom, interest rate volatility isn't caused by liquidity crunches subsequent to initial public offerings. [Read more](https://johnthwong.github.io/pdf/paper_dw.pdf)
-
-**When HIBOR (red) Breaches the Base Rate (blue)**
+<br>
+<br>
 <img src="images/thumbnail_dw_1.png"/>
 <br>
 <br>
@@ -99,9 +99,6 @@ In July 2024, I predicted that the most far-reaching policy initiative of a seco
 The Housing Authority's data on subsidized housing transactions is notoriously difficult to access as the data must be requested by month, each with a separate web form. So I developed a scraper that automatically submits forms and gathers transaction count in each month into one spreadsheet. 
 
 Built with Python and Selenium. Check it out here: [https://github.com/johnthwong/housing-authority-scraper](https://github.com/johnthwong/housing-authority-scraper)
-<br>
-<br>
-<img src="images/thumbnail_ha_scraper.png"/>
 <br>
 <br>
 
