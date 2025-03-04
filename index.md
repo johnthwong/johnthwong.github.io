@@ -2,7 +2,7 @@
 
 ---
 
-## Working Papers
+## Under Review
 
 ### [The Causal Effect of Regulation on Economic Growth: Evidence From the US States](https://github.com/johnthwong/reg-growth/blob/3a239c586cdf3bfa44faa8478f17fcceec967a04/write-up.pdf)
 I'm writing a paper with **[Patrick McLaughlin](https://www.mercatus.org/scholars/patrick-mclaughlin)** on using state age to estimate how increasing regulation causally affects growth. This project leverages the QuantGov project's **[State RegData](https://www.reghub.ai/data/bulk)**.
@@ -20,7 +20,19 @@ I'm writing a paper with **[Patrick McLaughlin](https://www.mercatus.org/scholar
 
 ---
 
-## Essays
+## Working Papers
+
+### How Complex Has the Tax Code Become? A Measure Derived from Tax Liability
+I construct a direct empirical measure of tax code complexity that encompasses the incidence of all federal and state taxes and the utilization of all deductions and credits.
+<br>
+<br>
+
+---
+
+## Projects
+
+### [Agent-Based General Equlibrium Model](https://github.com/johnthwong/bi-exchange)
+An agent-based model of a general bilateral exchange problem of A agents and N goods. This model uses boundedly rational agents, in the sense that the agents iteratively make trades without knowing the optimal quantities that maximize their utility. This model obtains a decentralized, numerical solution to a general equilibrium problem.
 
 ### [Most U.S. Government Borrowing Just Pays for More Borrowing](https://www.progressivepolicy.org/most-u-s-government-borrowing-just-pays-for-more-borrowing/)
 Nearly 40 percent of U.S. government debt today was issued just to cover interest on previous debt, and this problem is poised to worsen as recent borrowing accrues interest and Congress further cuts revenue. [Read more](https://www.progressivepolicy.org/most-u-s-government-borrowing-just-pays-for-more-borrowing/)
@@ -34,18 +46,16 @@ Nearly 40 percent of U.S. government debt today was issued just to cover interes
 
 ## Works in Progress
 
-### How Complex Has the Tax Code Become? A Measure Derived from Tax Liability
-Using publicly-available consumer expenditure data and NBER's TAXSIM program, I construct a direct empirical measure of tax code complexity that encompasses the incidence of all federal and state taxes and the utilization of all deductions and credits.
+### Learning What We Like
+A model of preference discovery with [Alex Tabarrok](https://alextabarrok.com).
+
+### Social Security: Cost-Benefit Measured as Expected Spending Per Unit of Risk Reduction
+I investigate whether various Social Security programs, in conjunction, provide additional value of risk insurance per dollar that is overlooked by separate evaluations of each program. I am using Health and Retirement Study panel data to examine how much the beneficiaries of retirement and disability income payments overlap.
 <br>
 <br>
 
 ### How Monopolistic is iMessage?
 To what extent does iMessage confer a monopolistic advantage to Apple? I estimate how much the service changes the demand elasticity for iPhones.
-<br>
-<br>
-
-### Social Security: Cost-Benefit Measured as Expected Spending Per Unit of Risk Reduction
-I investigate whether various Social Security programs, in conjunction, provide additional value of risk insurance per dollar that is overlooked by separate evaluations of each program. I am using Health and Retirement Study panel data to examine how much the beneficiaries of retirement and disability income payments overlap.
 <br>
 <br>
 
