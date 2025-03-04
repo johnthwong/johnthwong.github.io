@@ -5,7 +5,7 @@
 ## In Peer Review
 
 ### [The Causal Effect of Regulation on Economic Growth: Evidence From the US States](https://github.com/johnthwong/reg-growth/blob/3a239c586cdf3bfa44faa8478f17fcceec967a04/write-up.pdf)
-I'm writing a paper with **[Patrick McLaughlin](https://patrickamclaughlin.com)** on using state age to estimate how increasing regulation causally affects growth. This project leverages the QuantGov project's **[State RegData](https://www.quantgov.org)**.
+I'm writing a paper with [Patrick McLaughlin](https://patrickamclaughlin.com) on using state age to estimate how increasing regulation causally affects growth. This project leverages the QuantGov project's [State RegData](https://www.quantgov.org).
 
 **Read more:**
 <br>
@@ -101,7 +101,7 @@ The Housing Authority's data on subsidized housing transactions is notoriously d
 <br>
 
 ### [Visualization of the Hong Kong's Forex Reserves](https://github.com/johnthwong/hkma)
-After a drop in the balances of accounts held at the central bank by commercial banks (aka "Aggregate Balance") in the summer of 2022, there was **[trepidation](https://www.bloomberg.com/news/articles/2022-07-26/hong-kong-liquidity-shrinks-50-since-may-amid-currency-defense)** that Hong Kong's currency peg with the USD would break. In response, I wrote an internal report on why "Aggregate Balance" is insignificant and not worth panicking over. [View on Github](https://github.com/johnthwong/hkma)
+After a drop in the balances of accounts held at the central bank by commercial banks (aka "Aggregate Balance") in the summer of 2022, there was [trepidation](https://www.bloomberg.com/news/articles/2022-07-26/hong-kong-liquidity-shrinks-50-since-may-amid-currency-defense) that Hong Kong's currency peg with the USD would break. In response, I wrote an internal report on why "Aggregate Balance" is insignificant and not worth panicking over. [View on Github](https://github.com/johnthwong/hkma)
 <br>
 <br>
 <img src="images/thumbnail_viz_reserves.png"/>
