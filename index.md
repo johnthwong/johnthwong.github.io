@@ -32,7 +32,9 @@ I construct a direct empirical measure of tax code complexity that encompasses t
 ## Projects
 
 ### [Agent-Based General Equlibrium Model](https://github.com/johnthwong/bi-exchange)
-An agent-based model of a general bilateral exchange problem of A agents and N goods. This model uses boundedly rational agents, in the sense that the agents iteratively make trades without knowing the optimal quantities that maximize their utility. This model obtains a decentralized, numerical solution to a general equilibrium problem.
+An agent-based model of a general bilateral exchange problem of any *A* agents and any *N* goods. This model uses boundedly rational agents, in the sense that the agents iteratively make trades without knowing the optimal quantities that maximize their utility. It can obtain a decentralized, numerical solution to a general equilibrium problem.
+<br>
+<br>
 
 ### [Most U.S. Government Borrowing Just Pays for More Borrowing](https://www.progressivepolicy.org/most-u-s-government-borrowing-just-pays-for-more-borrowing/)
 Nearly 40 percent of U.S. government debt today was issued just to cover interest on previous debt, and this problem is poised to worsen as recent borrowing accrues interest and Congress further cuts revenue. [Read more](https://www.progressivepolicy.org/most-u-s-government-borrowing-just-pays-for-more-borrowing/)
@@ -48,6 +50,8 @@ Nearly 40 percent of U.S. government debt today was issued just to cover interes
 
 ### Learning What We Like
 A model of preference discovery with [Alex Tabarrok](https://alextabarrok.com).
+<br>
+<br>
 
 ### Social Security: Cost-Benefit Measured as Expected Spending Per Unit of Risk Reduction
 I investigate whether various Social Security programs, in conjunction, provide additional value of risk insurance per dollar that is overlooked by separate evaluations of each program. I am using Health and Retirement Study panel data to examine how much the beneficiaries of retirement and disability income payments overlap.
