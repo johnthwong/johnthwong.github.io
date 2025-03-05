@@ -6,7 +6,8 @@ description: > # your text below (remove <br> elements if you don't need line br
   <br>
   <br>
   Working towards an MA in Economics at GMU. <a href="https://www.mercatus.org/students/fellows/john-wong">Mercatus MA Fellow</a>.
-  <br>  
+  <br>
+  <br>
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
 - jekyll-remote-theme
