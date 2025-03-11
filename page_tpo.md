@@ -1,10 +1,8 @@
 ## Give US Public Housing Residents the Right to Buy Their Flat
-I recently wrote a policy memo for the Federation of American Scientists' call for federal policy ideas for increasing housing supply.
+I wrote a policy memo for the Federation of American Scientists' call for federal policy ideas for increasing housing supply.
 
 <img src="images/thumbnail_tpo_1.jpg"/>
 Photo by <a href="https://unsplash.com/@sigmund?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Sigmund</a> on <a href="https://unsplash.com/photos/CwTfKH5edSk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-
-*I owe the inspiration for this idea to William Wai Him Tsang and Professor Yue Chim Richard Wong for their decades-long work advocating for a subsidized homeownership scheme in Hong Kong.*
 
 ### Summary
 This recommendation advocates for a Tenant Purchase Option for all public housing units in the US. Under this policy, HUD will permit state and local housing agencies (HAs) to sell a public housing unit to its existing tenant at a below fair-market price, subject to minimal qualifying criteria. By selling public housing units, HAs can unlock currently non-transferrable land value, increase homeownership, create new wealth that accrues to the poor, improve state and local public finances, free up units under the Faircloth Limit, and most of all, increase housing supply.
@@ -32,3 +30,5 @@ As public housing tenants face income limits, the foremost question is whether t
 - And insofar as some projects see low take-up, this provides governments with the signal as to which projects should be demolished or redeveloped from the ground up. Even if take-up is low across the board, there is, once again, no financial cost to any government agency.
 - Meanwhile, the policy evokes D.C.'s Tenant Opportunity to Purchase Act, which gives tenants of private flats the first option to buy a flat in the case where the landlord intends to sell, as an effort to prevent displacement. On top of the Tenant Purchase Option's likely redistributive effects, improving mobility across neighborhoods would reduce road demand and emissions.
 - By privatizing public housing units, the policy would also reduce the number of flats which count toward the Faircloth Limit, which caps the number of units administered by a housing agency at October 1999 levels. Doing so, the policy also would free state and local governments to experiment in the role of a public developer, à la Singapore. The goal would be to build upscale but mixed-income units—such as the [Laureate](https://www.nytimes.com/2023/08/25/business/affordable-housing-montgomery-county.html) in Montgomery County MD—that can motivate purchase and cultivate ownership.
+
+*I owe the inspiration for this idea to William Wai Him Tsang and Professor Yue Chim Richard Wong for their decades-long work advocating for a subsidized homeownership scheme in Hong Kong.*

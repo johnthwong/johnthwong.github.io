@@ -86,9 +86,6 @@ Nearly 40 percent of U.S. government debt today was issued just to cover interes
 <br>
 <br>
 
-### [Reclassifying Civil Servants as Political Appointees Is Just Bad](https://www.progressivepolicy.org/blogs/trumps-schedule-f-would-transform-the-civil-service-to-weaponize-government/)
-In July 2024, I predicted that the most far-reaching policy initiative of a second Trump term would not be tariffs or taxes, but rather its upending of the civil service. [Read more](https://www.progressivepolicy.org/blogs/trumps-schedule-f-would-transform-the-civil-service-to-weaponize-government/)
-
 ---
 
 # Archive
