@@ -105,5 +105,5 @@ After a drop in the balances of accounts held at the central bank by commercial 
 <br>
 <br>
 
-### [Give US Public Housing Residents the Right to Buy Their Flat](https://johnthwong.github.io/page_tpo)
+### [Give Public Housing Residents the Right to Buy Their Flat](https://johnthwong.github.io/page_tpo)
 I submitted a policy memo to the Federation of American Scientists' call for federal policy ideas for increasing housing supply. By selling public housing units, we can unlock currently non-transferrable land value, increase homeownership, create new wealth that accrues to the poor, improve state and local public finances, free up units under the Faircloth Limit, and most of all, increase housing supply. [Read more](https://johnthwong.github.io/page_tpo)
