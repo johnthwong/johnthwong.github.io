@@ -4,16 +4,16 @@
 
 ## Microsimulations
 
+### [Agent-Based General Equilibrium Model](https://github.com/johnthwong/bi-exchange)
+An agent-based model of a general bilateral exchange problem of any *A* agents and any *N* goods. This model uses boundedly rational agents, in the sense that the agents iteratively make trades without knowing the optimal quantities that maximize their utility. It can obtain a decentralized, numerical solution to a general equilibrium problem. [View on Github](https://github.com/johnthwong/bi-exchange)
+<br>
+<br>
+
 ### [Modeling the Distributional Impact of Treating Employer FICA Taxes as Employee's Taxable Income](https://policyengine.org/us/policy?focus=policyOutput.winnersAndLosers.incomeDecile&reform=79249&region=us&timePeriod=2025&baseline=2&dataset=enhanced_cps)
 I coded a reform in PolicyEngine's microsimulation model. This reform, floated by others, exempts Social Security benefits from taxation while treating the employer’s share of Social Security and Medicare taxes as additional taxable income for employees. This further shifts the burden of financing retirement programs to working-age adults, and we model its impact on federal deficits and inequality. [View on PolicyEngine](https://policyengine.org/us/policy?focus=policyOutput.winnersAndLosers.incomeDecile&reform=79249&region=us&timePeriod=2025&baseline=2&dataset=enhanced_cps)
 <br>
 <br>
 <img src="images/tax_payroll_distributional_impact_no_heading.png"/>
-<br>
-<br>
-
-### [Agent-Based General Equilibrium Model](https://github.com/johnthwong/bi-exchange)
-An agent-based model of a general bilateral exchange problem of any *A* agents and any *N* goods. This model uses boundedly rational agents, in the sense that the agents iteratively make trades without knowing the optimal quantities that maximize their utility. It can obtain a decentralized, numerical solution to a general equilibrium problem. [View on Github](https://github.com/johnthwong/bi-exchange)
 <br>
 <br>
 
@@ -28,6 +28,8 @@ I wrote a paper with [Patrick McLaughlin](https://patrickamclaughlin.com) on usi
 <br>
 [Mercatus Working Paper (Dec 20 2024)](https://www.mercatus.org/research/working-papers/causal-effect-regulations-economic-growth-evidence-us-states)
 <br>
+[SSRN Preprint](https://dx.doi.org/10.2139/ssrn.5191651)
+<br>
 [Latest Working Draft](https://github.com/johnthwong/reg-growth/blob/3a239c586cdf3bfa44faa8478f17fcceec967a04/write-up.pdf)
 <br>
 <br>
@@ -38,6 +40,11 @@ I wrote a paper with [Patrick McLaughlin](https://patrickamclaughlin.com) on usi
 ---
 
 ## Working Papers/Works in Progress
+
+### [The Problem With Historical Instrumental Variables](https://github.com/johnthwong/mendelian/blob/main/presentation.pdf)
+Many instrumental variable papers that study are misspecified. I use difference equations and VAR representations to analyze how these papers violate econometric assumptions, and prove my claim with Monte Carlo simulations. I also propose a remedial two-stage-least-squares specification to correct for bias. [Read more](https://github.com/johnthwong/mendelian/blob/main/presentation.pdf)
+<br>
+<br>
 
 ### [How Complex Has the Tax Code Become? A Measure Derived from Tax Liability](https://github.com/PolicyEngine/policy-complexity)
 I construct a direct empirical measure of tax code complexity that encompasses the incidence of all federal and state taxes and the utilization of all deductions and credits. [View on Github](https://github.com/PolicyEngine/policy-complexity)
