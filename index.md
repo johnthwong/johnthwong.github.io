@@ -44,8 +44,8 @@ I wrote a paper with [Patrick McLaughlin](https://patrickamclaughlin.com) on usi
 
 ## Working Papers/Works in Progress
 
-### [The Problem With Historical Instrumental Variables](https://github.com/johnthwong/mendelian/blob/main/presentation.pdf)
-Many instrumental variable papers that identify treatment variations over long time periods are misspecified. I use difference equations, VAR representations, and Monte Carlo simulations to demonstrate this. I also propose a remedial two-stage-least-squares specification to correct for bias. [Read more](https://github.com/johnthwong/mendelian/blob/main/presentation.pdf)
+### [The Problem With Historical Instrumental Variables](https://github.com/johnthwong/mendelian/blob/main/note.pdf)
+Many instrumental variable papers that identify treatment variations over long time periods are misspecified. I use difference equations, VAR representations, and Monte Carlo simulations to demonstrate this. I also propose a remedial two-stage-least-squares specification to correct for bias. [Read more](https://github.com/johnthwong/mendelian/blob/main/note.pdf)
 <br>
 <br>
 <img src="images/mendelian_mc.png"/>
