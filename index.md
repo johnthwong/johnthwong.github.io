@@ -4,6 +4,14 @@
 
 ## Microsimulations
 
+### [Macroeconomic Agent-Based Model](https://github.com/johnthwong/mabm)
+I simulate a macroeconomy where households decide whom to buy from and work for, and firms independently decide headcount, wages, and prices. This is a [Lengnick](https://doi.org/10.1016/j.jebo.2012.12.021) model, but this one is built on Python with Mesa functionalities. This model shows that even without exogenous shocks, recessions can just emerge from economic agents temporarily failing to coordinate with each other. [View on Github](https://github.com/johnthwong/mabm)
+<br>
+<br>
+<img src="images/mabm_employment.png"/>
+<br>
+<br>
+
 ### [Agent-Based General Equilibrium Model](https://github.com/johnthwong/bi-exchange)
 An agent-based model of a general bilateral exchange problem of any *A* agents and any *N* goods. This model uses boundedly rational agents, in the sense that the agents iteratively make trades without knowing the optimal quantities that maximize their utility. It can obtain a decentralized, numerical solution to a general equilibrium problem. [View on Github](https://github.com/johnthwong/bi-exchange)
 <br>
