@@ -5,7 +5,7 @@
 ## Microsimulations
 
 ### [Macroeconomic Agent-Based Model](https://github.com/johnthwong/mabm)
-I simulate a macroeconomy where households decide whom to buy from and work for, and firms independently decide headcount, wages, and prices. This is a [Lengnick](https://doi.org/10.1016/j.jebo.2012.12.021) model, but this one is built on Python with Mesa functionalities. This model shows that even without exogenous shocks, recessions can just emerge from economic agents temporarily failing to coordinate with each other. [View on Github](https://github.com/johnthwong/mabm)
+A macroeconomy simulated with two types of software agents: households that decide whom to buy from and work for, and firms that decide headcount, wages, and prices. This is a [Lengnick](https://doi.org/10.1016/j.jebo.2012.12.021) model, which shows that even without exogenous shocks, recessions can just emerge from economic agents temporarily failing to coordinate with each other. [View on Github](https://github.com/johnthwong/mabm)
 <br>
 <br>
 <img src="images/mabm_employment.png"/>
@@ -30,7 +30,15 @@ I coded a reform in PolicyEngine's microsimulation model for a client. The propo
 
 ---
 
-## In Peer Review
+## Working Papers/Works in Progress
+
+### [The Problem With Historical Instrumental Variables](https://github.com/johnthwong/mendelian/blob/main/note.pdf)
+Many instrumental variable papers that identify treatment variations over long time periods are misspecified. I use difference equations, VAR representations, and Monte Carlo simulations to demonstrate this. I also propose a remedial two-stage-least-squares specification to correct for bias. [Read more](https://github.com/johnthwong/mendelian/blob/main/note.pdf)
+<br>
+<br>
+<img src="images/mendelian_mc.png"/>
+<br>
+<br>
 
 ### [The Causal Effect of Regulation on Economic Growth: Evidence From the US States](https://github.com/johnthwong/reg-growth/blob/3a239c586cdf3bfa44faa8478f17fcceec967a04/write-up.pdf)
 I wrote a paper with [Patrick McLaughlin](https://patrickamclaughlin.com) on using state age to estimate how increasing regulation causally affects growth. This project leverages the QuantGov project's [State RegData](https://www.quantgov.org).
@@ -45,18 +53,6 @@ I wrote a paper with [Patrick McLaughlin](https://patrickamclaughlin.com) on usi
 <br>
 <br>
 <img src="images/Rplot_olson_reg_age.png"/>
-<br>
-<br>
-
----
-
-## Working Papers/Works in Progress
-
-### [The Problem With Historical Instrumental Variables](https://github.com/johnthwong/mendelian/blob/main/note.pdf)
-Many instrumental variable papers that identify treatment variations over long time periods are misspecified. I use difference equations, VAR representations, and Monte Carlo simulations to demonstrate this. I also propose a remedial two-stage-least-squares specification to correct for bias. [Read more](https://github.com/johnthwong/mendelian/blob/main/note.pdf)
-<br>
-<br>
-<img src="images/mendelian_mc.png"/>
 <br>
 <br>
 
