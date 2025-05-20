@@ -2,7 +2,10 @@ title: John Wong # your name (or website title) here
 logo: # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
   <br>
-  Research analyst at the Urban-Brookings Tax Policy Center. Formerly PolicyEngine, <a href="https://www.progressivepolicy.org/people/john-wong/">PPI</a>, <a href="https://www.mercatus.org/students/fellows/john-wong">Mercatus</a>.
+  Research Analyst at the Urban-Brookings Tax Policy Center.
+  <br>
+  <br> 
+  Formerly <a href="https://github.com/PolicyEngine/policyengine-us/issues?q=state%3Aclosed%20is%3Apr%20author%3Ajohnthwong">PolicyEngine</a>, <a href="https://www.progressivepolicy.org/people/john-wong/">PPI</a>, <a href="https://www.mercatus.org/students/fellows/john-wong">Mercatus</a>.
   <br>
   <br>
 remote_theme: pages-themes/minimal@v0.2.0
