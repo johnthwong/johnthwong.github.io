@@ -2,7 +2,7 @@ title: John Wong # your name (or website title) here
 logo: # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
   <br>
-  Research Analyst at the Urban-Brookings Tax Policy Center.
+  Research Analyst at the <a href="https://www.urban.org/author/john-wong">Urban-Brookings Tax Policy Center</a>.
   <br>
   <br> 
   Formerly <a href="https://github.com/PolicyEngine/policyengine-us/issues?q=state%3Aclosed%20is%3Apr%20author%3Ajohnthwong">PolicyEngine</a>, <a href="https://www.progressivepolicy.org/people/john-wong/">PPI</a>, <a href="https://www.mercatus.org/students/fellows/john-wong">Mercatus</a>.
