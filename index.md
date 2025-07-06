@@ -76,11 +76,8 @@ To what extent does iMessage confer a monopolistic advantage to Apple? I estimat
 <br>
 <br>
 
-### [What Is the Cause of Interest Rate Volatility in Interbank Markets?](https://johnthwong.github.io/pdf/paper_dw.pdf)
-I demonstrate in this analysis that contrary to conventional wisdom, interest rate volatility isn't caused by liquidity crunches subsequent to initial public offerings. [Read more](https://johnthwong.github.io/pdf/paper_dw.pdf)
-<br>
-<br>
-<img src="images/thumbnail_dw_1.png"/>
+### What Is the Cause of Interest Rate Volatility in Interbank Markets?
+I demonstrate that contrary to conventional wisdom, interest rate volatility in Hong Kong isn't caused by liquidity crunches subsequent to initial public offerings.
 <br>
 <br>
 
@@ -102,25 +99,3 @@ Nearly 40 percent of U.S. government debt today was issued just to cover interes
 <img src="images/debt_interest_share.png"/>
 <br>
 <br>
-
----
-
-# Archive
-
----
-
-### [Web Scraper for Subsidized Housing Transaction Data](https://github.com/johnthwong/housing-authority-scraper)
-The Housing Authority's data on subsidized housing transactions is notoriously difficult to access as the data must be requested by month, each with a separate web form. So I developed a scraper that automatically submits forms and gathers transaction count in each month into one spreadsheet. [View on Github](https://github.com/johnthwong/housing-authority-scraper)
-<br>
-<br>
-
-### [Visualization of the Hong Kong's Forex Reserves](https://github.com/johnthwong/hkma)
-After a drop in the balances of accounts held at the central bank by commercial banks (aka "Aggregate Balance") in the summer of 2022, there was [trepidation](https://www.bloomberg.com/news/articles/2022-07-26/hong-kong-liquidity-shrinks-50-since-may-amid-currency-defense) that Hong Kong's currency peg with the USD would break. In response, I wrote an internal report on why "Aggregate Balance" is insignificant and not worth panicking over. [View on Github](https://github.com/johnthwong/hkma)
-<br>
-<br>
-<img src="images/thumbnail_viz_reserves.png"/>
-<br>
-<br>
-
-### [Give Public Housing Residents the Right to Buy Their Flat](https://johnthwong.github.io/page_tpo)
-I submitted a policy memo to the Federation of American Scientists' call for federal policy ideas for increasing housing supply. By selling public housing units, we can unlock currently non-transferrable land value, increase homeownership, create new wealth that accrues to the poor, improve state and local public finances, free up units under the Faircloth Limit, and most of all, increase housing supply. [Read more](https://johnthwong.github.io/page_tpo)
