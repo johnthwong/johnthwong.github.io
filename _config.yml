@@ -5,7 +5,7 @@ description: > # your text below (remove <br> elements if you don't need line br
   Research Analyst at the <a href="https://www.urban.org/author/john-wong">Urban-Brookings Tax Policy Center</a>.
   <br>
   <br> 
-  Formerly <a href="https://github.com/PolicyEngine/policyengine-us/issues?q=state%3Aclosed%20is%3Apr%20author%3Ajohnthwong">PolicyEngine</a>, <a href="https://www.progressivepolicy.org/people/john-wong/">PPI</a>, <a href="https://www.mercatus.org/students/fellows/john-wong">Mercatus</a>.
+  Formerly <b><a href="https://github.com/PolicyEngine/policyengine-us/issues?q=state%3Aclosed%20is%3Apr%20author%3Ajohnthwong">PolicyEngine</a>, <a href="https://www.progressivepolicy.org/people/john-wong/">PPI</a>, <a href="https://www.mercatus.org/students/fellows/john-wong">Mercatus</a>.</b>
   <br>
   <br>
 remote_theme: pages-themes/minimal@v0.2.0
