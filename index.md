@@ -91,7 +91,15 @@ Using a panel of measures of immigrant mobility from Statistics Canada and a shi
 
 ---
 
-## Blog Posts
+## Public Writing
+
+### [Tax Policy Center Tariff Tracker](https://taxpolicycenter.org/features/tracking-trump-tariffs)
+I explain the major categories of tariff, how they stack, and what the estimated total tariff rate on each country is. [Read more](https://taxpolicycenter.org/features/tracking-trump-tariffs)
+<br>
+<br>
+<img src="images/-sup-style-color-f0573e-sub-figure-1-sub-sup-br-estimated-total-tariff-rate-by-country-after-pause-expiration.png"/>
+<br>
+<br>
 
 ### [Too Many Goods Are About To Face Historically High Tariffs](https://taxpolicycenter.org/taxvox/too-many-goods-are-about-face-historically-high-tariffs)
 Tariffs are typically levied on countries. But consumers buy goods by category, not by country of origin. In my first piece for Urban-Brookings Tax Policy Center, Robert McClelland and I use our revamped tariff model to translate the effects of country-based tariffs on major consumer goods. [Read more](https://taxpolicycenter.org/taxvox/too-many-goods-are-about-face-historically-high-tariffs)
