@@ -94,7 +94,7 @@ Using a panel of measures of immigrant mobility from Statistics Canada and a shi
 ## Public Writing
 
 ### [Tax Policy Center Tariff Tracker](https://taxpolicycenter.org/features/tracking-trump-tariffs)
-I explain the major categories of tariff, how they stack, and what the estimated total tariff rate on each country is. [Read more](https://taxpolicycenter.org/features/tracking-trump-tariffs)
+I explain the major categories of tariffs, how they stack, and what the estimated total tariff rate on each country is. [Read more](https://taxpolicycenter.org/features/tracking-trump-tariffs)
 <br>
 <br>
 <img src="images/-sup-style-color-f0573e-sub-figure-1-sub-sup-br-estimated-total-tariff-rate-by-country-after-pause-expiration.png"/>
