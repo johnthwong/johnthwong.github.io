@@ -7,6 +7,9 @@
 ### Tax Policy Center Tariff Revenue Model
 We build a R model that can generally accommodate rapidly changing tariff policy and produce revenue estimates.
 
+### Tax Policy Center Tariff Distribution Model
+Tariffs on final goods are determined by tariffs on their intermediate inputs. We use input-output tables to map how goods feed into one another, and estimate final burden and price changes. 
+
 ### [Macroeconomic Agent-Based Model](https://github.com/johnthwong/mabm)
 A macroeconomy simulated with two types of software agents: households that decide whom to buy from and work for, and firms that decide headcount, wages, and prices. This is a [Lengnick](https://doi.org/10.1016/j.jebo.2012.12.021) model, which shows that even without exogenous shocks, recessions can just emerge from economic agents temporarily failing to coordinate with each other. [View on Github](https://github.com/johnthwong/mabm)
 <br>
