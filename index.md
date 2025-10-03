@@ -113,7 +113,7 @@ I explain the major categories of tariffs, how they stack, and what the estimate
 Tariffs are typically levied on countries. But consumers buy goods by category, not by country of origin. In my first piece for Urban-Brookings Tax Policy Center, Robert McClelland and I use our revamped tariff model to translate the effects of country-based tariffs on major consumer goods. [Read more](https://taxpolicycenter.org/taxvox/too-many-goods-are-about-face-historically-high-tariffs)
 <br>
 <br>
-<img src="images/figure 1 tariffs consumer goods.png"/>
+<img src="images/auz1h--sup-style-color-f0573e-sub-figure-1-sub-sup-br-tariff-rates-on-consumer-goods.png"/>
 <br>
 <br>
 
