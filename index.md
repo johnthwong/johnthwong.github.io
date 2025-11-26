@@ -4,10 +4,23 @@
 
 ## Simulations
 
-### Tax Policy Center Tariff Revenue Model
-We build a R model that can generally accommodate rapidly changing tariff policy and produce revenue estimates.
+### TPC Tariff Rules Engine
+To analyze rapidly-changing and complex tariff policies, we built a program that estimates a tariff rate for each product from each origin, for each policy, each day--resulting in 10 billion tariff rates per simulation. This is supported by a YAML-based rule-encoding system that requires no code for adding new policies. Read more about it [here](https://taxpolicycenter.org/taxvox/modeling-tariff-complexity-how-tpc-tracks-billions-policy-combinations).
+<br>
+<br>
+<img src="images/XVrTO-sup-style-color-f0573e-sub-figure-3-sub-sup-br-average-tariff-rate-on-select-goods--3.png"/>
+<br>
+<br>
 
-### Tax Policy Center Tariff Distribution Model
+### TPC Tariff Revenue Model
+We build a R model that can generally accommodate rapidly changing tariff policy and produce [revenue estimates](https://taxpolicycenter.org/model-estimates/T25-0373).
+<br>
+<br>
+<img src="images/-sup-style-color-f0573e-sub-figure-4-sub-sup-br-trump-administration-tariffs-announced-from-january-20-2025-through-november-20-2025-.png"/>
+<br>
+<br>
+
+### TPC Tariff Input-Outut Model
 Tariffs on final goods are determined by tariffs on their intermediate inputs. We use input-output tables to map how goods feed into one another, and estimate final burden and price changes. 
 
 ### [Macroeconomic Agent-Based Model](https://github.com/johnthwong/mabm)
@@ -95,6 +108,12 @@ Using a panel of measures of immigrant mobility from Statistics Canada and a shi
 ---
 
 ## Public Writing
+
+### [Modeling Tariff Complexity: How TPC Tracks Billions of Policy Combinations](https://taxpolicycenter.org/taxvox/modeling-tariff-complexity-how-tpc-tracks-billions-policy-combinations)
+I introduce TPC's Tariff Rules Engine and its capabilities.
+<br>
+<br>
+
 
 ### [Brookings: Recent Tariffs Threaten Residential Construction](https://www.brookings.edu/articles/recent-tariffs-threaten-residential-construction/)
 Using TPC’s tariff model, Elena Patel, Robert McClelland, and I calculated that tariffs will add roughly $30 billion to the costs of investment in residential structures. [Read more](https://www.brookings.edu/articles/recent-tariffs-threaten-residential-construction/)
