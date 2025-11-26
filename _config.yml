@@ -1,7 +1,6 @@
 title: John Wong # your name (or website title) here
 logo: # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
-  <br>
   Research Analyst at the <b><a href="https://www.urban.org/author/john-wong">Urban-Brookings Tax Policy Center</a>.</b>
   <br>
 remote_theme: pages-themes/minimal@v0.2.0
