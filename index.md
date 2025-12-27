@@ -1,8 +1,4 @@
-# Economic Research
-
----
-
-## Simulations
+## Modeling Work
 
 ### TPC Tariff Rules Engine
 To analyze rapidly-changing and complex tariff policies, we built a program that estimates a tariff rate for each product from each origin, for each policy, each day---resulting in 10 billion tariff rates per simulation. This is supported by a YAML-based rule-encoding system that requires no code for adding new policies. Read more about it [here](https://taxpolicycenter.org/taxvox/modeling-tariff-complexity-how-tpc-tracks-billions-policy-combinations).
