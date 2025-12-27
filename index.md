@@ -100,7 +100,7 @@ We put the tariff rules engine to analyze the marginal impact of IEEPA tariffs a
 <br>
 <br>
 
-### [TPC: TPC Shows Who Pays Trump Administration’s Tariffs And Who Could Gain From $2,000 Dividend](https://taxpolicycenter.org/taxvox/tpc-shows-who-pays-trump-administrations-tariffs-and-who-could-gain-2000-dividend)
+### [TPC Shows Who Pays Trump Administration’s Tariffs And Who Could Gain From $2,000 Dividend](https://taxpolicycenter.org/taxvox/tpc-shows-who-pays-trump-administrations-tariffs-and-who-could-gain-2000-dividend)
 The distribution of tariff burden, generated with our latest tariff rules engine and input-output model. [Read more](https://taxpolicycenter.org/taxvox/tpc-shows-who-pays-trump-administrations-tariffs-and-who-could-gain-2000-dividend)
 <br>
 <br>
