@@ -90,9 +90,18 @@ I introduce TPC's Tariff Rules Engine and its capabilities.
 <br>
 <br>
 
-
 ### [Brookings: Recent Tariffs Threaten Residential Construction](https://www.brookings.edu/articles/recent-tariffs-threaten-residential-construction/)
 Using TPC’s tariff model, Elena Patel, Robert McClelland, and I calculated that tariffs will add roughly $30 billion to the costs of investment in residential structures. [Read more](https://www.brookings.edu/articles/recent-tariffs-threaten-residential-construction/)
+<br>
+<br>
+
+### [TPC: Supreme Court Ruling on IEEPA Tariffs Could Ease Cost Burdens, But Less Than You Might Think](https://taxpolicycenter.org/taxvox/supreme-court-ruling-ieepa-tariffs-could-ease-cost-burdens-less-you-might-think)
+We put the tariff rules engine to analyze the marginal impact of IEEPA tariffs and simulate new tariffs. [Read more](https://taxpolicycenter.org/taxvox/supreme-court-ruling-ieepa-tariffs-could-ease-cost-burdens-less-you-might-think)
+<br>
+<br>
+
+### [TPC: TPC Shows Who Pays Trump Administration’s Tariffs And Who Could Gain From $2,000 Dividend](https://taxpolicycenter.org/taxvox/tpc-shows-who-pays-trump-administrations-tariffs-and-who-could-gain-2000-dividend)
+The distribution of tariff burden, generated with our latest tariff rules engine and input-output model. [Read more](https://taxpolicycenter.org/taxvox/tpc-shows-who-pays-trump-administrations-tariffs-and-who-could-gain-2000-dividend)
 <br>
 <br>
 
@@ -103,6 +112,12 @@ I explain the major categories of tariffs, how they stack, and what the estimate
 <img src="images/-sup-style-color-f0573e-sub-figure-1-sub-sup-br-estimated-total-tariff-rate-by-country-after-pause-expiration.png"/>
 <br>
 <br>
+
+### [TPC: Tariffs On Movies Would Face Very High Hurdles](https://taxpolicycenter.org/taxvox/tariffs-movies-would-face-very-high-hurdles)
+Janet Holtzblatt, Rob McClelland, and I explore the difficulties of levying import duties on intellectual property. [Read more](https://taxpolicycenter.org/taxvox/tariffs-movies-would-face-very-high-hurdles)
+<br>
+<br>
+
 
 ### [TPC: Too Many Goods Are About To Face Historically High Tariffs](https://taxpolicycenter.org/taxvox/too-many-goods-are-about-face-historically-high-tariffs)
 Tariffs are typically levied on countries. But consumers buy goods by category, not by country of origin. In my first piece for Urban-Brookings Tax Policy Center, Robert McClelland and I use our revamped tariff model to translate the effects of country-based tariffs on major consumer goods. [Read more](https://taxpolicycenter.org/taxvox/too-many-goods-are-about-face-historically-high-tariffs)
