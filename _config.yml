@@ -3,7 +3,7 @@ logo: # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
   Research Analyst at the <a href="https://taxpolicycenter.org/author/john-wong">Urban-Brookings Tax Policy Center</a>.
   <br><br>
-  Estimates cited on <a href="https://www.wsj.com/economy/trade/chinas-exports-rebound-in-november-97f24e06?st=mnKose&reflink=desktopwebshare_permalink">Wall Street Journal</a>, <a href="https://www.americanprogress.org/article/trump-administration-tariffs-could-result-in-450000-fewer-new-homes-through-2030/">Center for American Progress</a>, <a href="https://www.politifact.com/article/2025/nov/10/Trump-tariff-dividend-2000-stimulus/">Politifact</a>.
+  Estimates cited by <a href="https://www.americanprogress.org/article/trump-administration-tariffs-could-result-in-450000-fewer-new-homes-through-2030/">Center for American Progress</a>, <a href="https://www.wsj.com/economy/trade/chinas-exports-rebound-in-november-97f24e06?st=mnKose&reflink=desktopwebshare_permalink">Wall Street Journal</a>, <a href="https://www.politifact.com/article/2025/nov/10/Trump-tariff-dividend-2000-stimulus/">Politifact</a>.
   <br>
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
