@@ -35,14 +35,6 @@ An agent-based model of a general bilateral exchange problem of any *A* agents a
 <br>
 <br>
 
-### [Modeling the Distributional Impact of Treating Employer FICA Taxes as Employee's Taxable Income](https://policyengine.org/us/policy?focus=policyOutput.winnersAndLosers.incomeDecile&reform=79249&region=us&timePeriod=2025&baseline=2&dataset=enhanced_cps)
-I coded a reform in PolicyEngine's microsimulation model for a client. The proposal would exempt Social Security benefits from taxation, while treating the employer’s share of Social Security and Medicare taxes as additional taxable income for employees. We model its impact on federal deficits and inequality. [View on PolicyEngine](https://policyengine.org/us/policy?focus=policyOutput.winnersAndLosers.incomeDecile&reform=79249&region=us&timePeriod=2025&baseline=2&dataset=enhanced_cps)
-<br>
-<br>
-<img src="images/tax_payroll_distributional_impact_no_heading.png"/>
-<br>
-<br>
-
 ---
 
 ## Working Papers/Works in Progress
