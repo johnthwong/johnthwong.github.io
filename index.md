@@ -71,33 +71,13 @@ I wrote a paper with [Patrick McLaughlin](https://patrickamclaughlin.com) on usi
 <br>
 <br>
 
-### [How Complex Has the Tax Code Become? A Measure Derived from Tax Liability](https://github.com/PolicyEngine/policy-complexity)
-I construct a direct empirical measure of tax code complexity that encompasses the incidence of all federal and state taxes and the utilization of all deductions and credits. [View on Github](https://github.com/PolicyEngine/policy-complexity)
-<br>
-<br>
-
 ### Learning What We Like
 A model of preference discovery with [Alex Tabarrok](https://alextabarrok.com).
 <br>
 <br>
 
-### Social Security: Cost-Benefit Measured as Expected Spending Per Unit of Risk Reduction
-I investigate whether various Social Security programs, in conjunction, provide additional value of risk insurance per dollar that is overlooked by separate evaluations of each program. I am using Health and Retirement Study panel data to examine how much the beneficiaries of retirement and disability income payments overlap.
-<br>
-<br>
-
 ### How Monopolistic is iMessage?
 To what extent does iMessage confer a monopolistic advantage to Apple? I estimate how much the service changes the demand elasticity for iPhones.
-<br>
-<br>
-
-### What Is the Cause of Interest Rate Volatility in Interbank Markets?
-I demonstrate that contrary to conventional wisdom, interest rate volatility in Hong Kong isn't caused by liquidity crunches subsequent to initial public offerings.
-<br>
-<br>
-
-### Income Mobility and Regulation: Evidence from Canadian Immigrants
-Using a panel of measures of immigrant mobility from Statistics Canada and a shift-share instrument, we measure how much liberalization affects immigrants' economic outcomes. With Vincent Geloso and James Dean.
 <br>
 <br>
 
