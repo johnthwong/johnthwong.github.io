@@ -1,4 +1,4 @@
-# Economic Researcher
+# Economic Research
 
 ## Microsimulation
 
