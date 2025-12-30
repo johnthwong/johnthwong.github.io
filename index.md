@@ -37,7 +37,7 @@ An agent-based model of a general bilateral exchange problem of any *A* agents a
 
 ---
 
-## Working Papers/Works in Progress
+## Working Papers
 
 ### [The Problem With Historical Instrumental Variables](https://github.com/johnthwong/mendelian/blob/main/note.pdf)
 Many instrumental variable papers that identify treatment variations over long time periods are misspecified. I use difference equations, VAR representations, and Monte Carlo simulations to demonstrate this. I also propose a remedial two-stage-least-squares specification to correct for bias. [Read more](https://github.com/johnthwong/mendelian/blob/main/note.pdf)
@@ -75,7 +75,7 @@ To what extent does iMessage confer a monopolistic advantage to Apple? I estimat
 
 ---
 
-## Public Writing
+## Blogs
 
 ### [Modeling Tariff Complexity: How TPC Tracks Billions of Policy Combinations](https://taxpolicycenter.org/taxvox/modeling-tariff-complexity-how-tpc-tracks-billions-policy-combinations)
 I introduce TPC's Tariff Rules Engine and its capabilities.
