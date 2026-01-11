@@ -8,7 +8,15 @@
 To analyze rapidly-changing and complex tariff policies, we built a program that estimates a tariff rate for each product from each origin, for each policy, each day---resulting in 10 billion tariff rates per simulation. This is supported by a YAML-based rule-encoding system that requires no code for adding new policies. Read more about it [here](https://taxpolicycenter.org/taxvox/modeling-tariff-complexity-how-tpc-tracks-billions-policy-combinations).
 <br>
 <br>
-<img src="images/XVrTO-sup-style-color-f0573e-sub-figure-3-sub-sup-br-average-tariff-rate-on-select-goods--3.png"/>
+<img src="images/effect-on-average-tariff-rate-by-tariff-type-2.png"/>
+<br>
+<br>
+
+### TPC Tariff Supply Chain Model
+Tariffs on final goods are determined by tariffs on their intermediate inputs. We use input-output tables to map how goods feed into one another, and estimate final burden and price changes.
+<br>
+<br>
+<img src="images/burden_alluvial.png"/>
 <br>
 <br>
 
@@ -16,12 +24,9 @@ To analyze rapidly-changing and complex tariff policies, we built a program that
 We build a R model that can generally accommodate rapidly changing tariff policy and produce [revenue estimates](https://taxpolicycenter.org/model-estimates/T25-0373).
 <br>
 <br>
-<img src="images/-sup-style-color-f0573e-sub-figure-4-sub-sup-br-trump-administration-tariffs-announced-from-january-20-2025-through-november-20-2025-.png"/>
+<img src="images/trump-administration-tariffs-announced-from-january-20-2025-through-december-04-2025-.png"/>
 <br>
 <br>
-
-### TPC Tariff Input-Outut Model
-Tariffs on final goods are determined by tariffs on their intermediate inputs. We use input-output tables to map how goods feed into one another, and estimate final burden and price changes. 
 
 ### [Macroeconomic Agent-Based Model](https://github.com/johnthwong/mabm)
 A macroeconomy simulated with two types of software agents: households that decide whom to buy from and work for, and firms that decide headcount, wages, and prices. This is a [Lengnick](https://doi.org/10.1016/j.jebo.2012.12.021) model, which shows that even without exogenous shocks, recessions can just emerge from economic agents temporarily failing to coordinate with each other. [View on Github](https://github.com/johnthwong/mabm)
@@ -42,6 +47,11 @@ An agent-based model of a general bilateral exchange problem of any *A* agents a
 ---
 
 ## Blogs
+
+### [TPC: How Do Tariffs Flow Through Supply Chains?](https://taxpolicycenter.org/taxvox/how-do-tariffs-flow-through-supply-chains)
+I explain how TPC applies input-output analysis for tariffs.
+<br>
+<br>
 
 ### [Modeling Tariff Complexity: How TPC Tracks Billions of Policy Combinations](https://taxpolicycenter.org/taxvox/modeling-tariff-complexity-how-tpc-tracks-billions-policy-combinations)
 I introduce TPC's Tariff Rules Engine and its capabilities.
@@ -67,7 +77,7 @@ The distribution of tariff burden, generated with our latest tariff rules engine
 I explain the major categories of tariffs, how they stack, and what the estimated total tariff rate on each country is. [Read more](https://taxpolicycenter.org/features/tracking-trump-tariffs)
 <br>
 <br>
-<img src="images/-sup-style-color-f0573e-sub-figure-1-sub-sup-br-estimated-total-tariff-rate-by-country-after-pause-expiration.png"/>
+<img src="images/estimated-total-tariff-rate-by-country-2.png"/>
 <br>
 <br>
 
@@ -81,7 +91,7 @@ Janet Holtzblatt, Rob McClelland, and I explore the difficulties of levying impo
 Tariffs are typically levied on countries. But consumers buy goods by category, not by country of origin. In my first piece for Urban-Brookings Tax Policy Center, Robert McClelland and I use our revamped tariff model to translate the effects of country-based tariffs on major consumer goods. [Read more](https://taxpolicycenter.org/taxvox/too-many-goods-are-about-face-historically-high-tariffs)
 <br>
 <br>
-<img src="images/auz1h--sup-style-color-f0573e-sub-figure-1-sub-sup-br-tariff-rates-on-consumer-goods.png"/>
+<img src="images/MEFKK-tariff-rates-on-consumer-goods-.png"/>
 <br>
 <br>
 
