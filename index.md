@@ -64,7 +64,7 @@ Using TPC’s tariff model, Elena Patel, Robert McClelland, and I calculated tha
 <br>
 
 ### [TPC: Supreme Court Ruling on IEEPA Tariffs Could Ease Cost Burdens, But Less Than You Might Think](https://taxpolicycenter.org/taxvox/supreme-court-ruling-ieepa-tariffs-could-ease-cost-burdens-less-you-might-think)
-We put the tariff rules engine to analyze the marginal impact of IEEPA tariffs and simulate new tariffs. [Read more](https://taxpolicycenter.org/taxvox/supreme-court-ruling-ieepa-tariffs-could-ease-cost-burdens-less-you-might-think)
+We use the tariff rules engine to analyze the marginal impact of IEEPA tariffs and simulate new tariffs. [Read more](https://taxpolicycenter.org/taxvox/supreme-court-ruling-ieepa-tariffs-could-ease-cost-burdens-less-you-might-think)
 <br>
 <br>
 
