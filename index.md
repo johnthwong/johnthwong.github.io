@@ -41,45 +41,12 @@ An agent-based model of a general bilateral exchange problem of any *A* agents a
 
 ---
 
-## Working Papers
-
-### [The Problem With Historical Instrumental Variables](https://github.com/johnthwong/mendelian/blob/main/note.pdf)
-Many instrumental variable papers that identify treatment variations over long time periods are misspecified. I use difference equations, VAR representations, and Monte Carlo simulations to demonstrate this. I also propose a remedial two-stage-least-squares specification to correct for bias. [Read more](https://github.com/johnthwong/mendelian/blob/main/note.pdf)
-<br>
-<br>
-<img src="images/mendelian_mc.png"/>
-<br>
-<br>
-
-### [The Causal Effect of Regulation on Economic Growth: Evidence From the US States](https://github.com/johnthwong/reg-growth/blob/3a239c586cdf3bfa44faa8478f17fcceec967a04/write-up.pdf)
-I wrote a paper with [Patrick McLaughlin](https://patrickamclaughlin.com) on using state age to estimate how increasing regulation causally affects growth. This project leverages the QuantGov project's [State RegData](https://www.quantgov.org).
-
-**Read more:**
-<br>
-[Mercatus Working Paper (Dec 20 2024)](https://www.mercatus.org/research/working-papers/causal-effect-regulations-economic-growth-evidence-us-states)
-<br>
-[SSRN Preprint](https://dx.doi.org/10.2139/ssrn.5191651)
-<br>
-[Latest Working Draft](https://github.com/johnthwong/reg-growth/blob/3a239c586cdf3bfa44faa8478f17fcceec967a04/write-up.pdf)
-<br>
-<br>
-<img src="images/Rplot_olson_reg_age.png"/>
-<br>
-<br>
-
-### Learning What We Like
-A model of preference discovery with [Alex Tabarrok](https://alextabarrok.com).
-<br>
-<br>
-
-### How Monopolistic is iMessage?
-To what extent does iMessage confer a monopolistic advantage to Apple? I estimate how much the service changes the demand elasticity for iPhones.
-<br>
-<br>
-
----
-
 ## Blogs
+
+### [Modeling Tariff Complexity: How TPC Tracks Billions of Policy Combinations](https://taxpolicycenter.org/taxvox/modeling-tariff-complexity-how-tpc-tracks-billions-policy-combinations)
+I introduce TPC's Tariff Rules Engine and its capabilities.
+<br>
+<br>
 
 ### [Modeling Tariff Complexity: How TPC Tracks Billions of Policy Combinations](https://taxpolicycenter.org/taxvox/modeling-tariff-complexity-how-tpc-tracks-billions-policy-combinations)
 I introduce TPC's Tariff Rules Engine and its capabilities.
@@ -128,5 +95,44 @@ Nearly 40 percent of U.S. government debt today was issued just to cover interes
 <br>
 <br>
 <img src="images/debt_interest_share.png"/>
+<br>
+<br>
+
+
+---
+
+## Working Papers
+
+### [The Problem With Historical Instrumental Variables](https://github.com/johnthwong/mendelian/blob/main/note.pdf)
+Many instrumental variable papers that identify treatment variations over long time periods are misspecified. I use difference equations, VAR representations, and Monte Carlo simulations to demonstrate this. I also propose a remedial two-stage-least-squares specification to correct for bias. [Read more](https://github.com/johnthwong/mendelian/blob/main/note.pdf)
+<br>
+<br>
+<img src="images/mendelian_mc.png"/>
+<br>
+<br>
+
+### [The Causal Effect of Regulation on Economic Growth: Evidence From the US States](https://github.com/johnthwong/reg-growth/blob/3a239c586cdf3bfa44faa8478f17fcceec967a04/write-up.pdf)
+I wrote a paper with [Patrick McLaughlin](https://patrickamclaughlin.com) on using state age to estimate how increasing regulation causally affects growth. This project leverages the QuantGov project's [State RegData](https://www.quantgov.org).
+
+**Read more:**
+<br>
+[Mercatus Working Paper (Dec 20 2024)](https://www.mercatus.org/research/working-papers/causal-effect-regulations-economic-growth-evidence-us-states)
+<br>
+[SSRN Preprint](https://dx.doi.org/10.2139/ssrn.5191651)
+<br>
+[Latest Working Draft](https://github.com/johnthwong/reg-growth/blob/3a239c586cdf3bfa44faa8478f17fcceec967a04/write-up.pdf)
+<br>
+<br>
+<img src="images/Rplot_olson_reg_age.png"/>
+<br>
+<br>
+
+### Learning What We Like
+A model of preference discovery with [Alex Tabarrok](https://alextabarrok.com).
+<br>
+<br>
+
+### How Monopolistic is iMessage?
+To what extent does iMessage confer a monopolistic advantage to Apple? I estimate how much the service changes the demand elasticity for iPhones.
 <br>
 <br>
