@@ -7,8 +7,8 @@ description: > # your text below (remove <br> elements if you don't need line br
   <br><br>
   Jump to:<br>
   1. <a href="#microsimulation">Microsimulation</a><br>
-  2. <a href="#blogs">Blogs</a>
-  3. <a href="#working-papers">Working Papers</a><br>
+  2. <a href="#blogs">Blogs</a><br>
+  3. <a href="#working-papers">Working Papers</a>
   <br>
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
