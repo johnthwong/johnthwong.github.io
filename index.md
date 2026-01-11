@@ -4,24 +4,24 @@
 
 ## Microsimulation
 
-### TPC Tariff Rules Engine
-To analyze rapidly-changing and complex tariff policies, we built a program that estimates a tariff rate for each product from each origin, for each policy, each day---resulting in 10 billion tariff rates per simulation. This is supported by a YAML-based rule-encoding system that requires no code for adding new policies. Read more about it [here](https://taxpolicycenter.org/taxvox/modeling-tariff-complexity-how-tpc-tracks-billions-policy-combinations).
+### (TPC Tariff Rules Engine)[https://taxpolicycenter.org/resources/tax-model-resources/documentation-tax-policy-centers-business-tax-model]
+To analyze rapidly-changing and complex tariff policies, we built a program that estimates a tariff rate for each product from each origin, for each policy, each day---resulting in 10 billion tariff rates per simulation. This is supported by a YAML-based rule-encoding system that requires no code for adding new policies. Read more about it [here]([https://taxpolicycenter.org/resources/tax-model-resources/documentation-tax-policy-centers-business-tax-model]).
 <br>
 <br>
 <img src="images/effect-on-average-tariff-rate-by-tariff-type-2.png"/>
 <br>
 <br>
 
-### TPC Tariff Supply Chain Model
-Tariffs on final goods are determined by tariffs on their intermediate inputs. We use input-output tables to map how goods feed into one another, and estimate final burden and price changes.
+### (TPC Tariff Supply Chain Model)[https://taxpolicycenter.org/resources/tax-model-resources/documentation-tax-policy-centers-business-tax-model]
+Tariffs on final goods are determined by tariffs on their intermediate inputs. We use input-output tables to map how goods feed into one another, and estimate final burden and price changes. Read more about it [here]([https://taxpolicycenter.org/resources/tax-model-resources/documentation-tax-policy-centers-business-tax-model]).
 <br>
 <br>
 <img src="images/burden_alluvial.png"/>
 <br>
 <br>
 
-### TPC Tariff Revenue Model
-We build a R model that can generally accommodate rapidly changing tariff policy and produce [revenue estimates](https://taxpolicycenter.org/model-estimates/T25-0373).
+### (TPC Tariff Revenue Model)[https://taxpolicycenter.org/resources/tax-model-resources/documentation-tax-policy-centers-business-tax-model]
+We build a R model that can generally accommodate rapidly changing tariff policy and produce [revenue estimates](https://taxpolicycenter.org/model-estimates/T25-0373). Read more about it [here]([https://taxpolicycenter.org/resources/tax-model-resources/documentation-tax-policy-centers-business-tax-model]).
 <br>
 <br>
 <img src="images/trump-administration-tariffs-announced-from-january-20-2025-through-december-04-2025-.png"/>
@@ -48,6 +48,14 @@ An agent-based model of a general bilateral exchange problem of any *A* agents a
 
 ## Blogs
 
+### [Tax Policy Center Tariff Tracker](https://taxpolicycenter.org/features/tracking-trump-tariffs)
+TPC's latest analysis on tariffs visualized. [Read more](https://taxpolicycenter.org/features/tracking-trump-tariffs)
+<br>
+<br>
+<img src="images/estimated-total-tariff-rate-by-country-2.png"/>
+<br>
+<br>
+
 ### [TPC: How Do Tariffs Flow Through Supply Chains?](https://taxpolicycenter.org/taxvox/how-do-tariffs-flow-through-supply-chains)
 I explain how TPC applies input-output analysis for tariffs.
 <br>
@@ -70,14 +78,6 @@ We use the tariff rules engine to analyze the marginal impact of IEEPA tariffs a
 
 ### [TPC Shows Who Pays Trump Administration’s Tariffs And Who Could Gain From $2,000 Dividend](https://taxpolicycenter.org/taxvox/tpc-shows-who-pays-trump-administrations-tariffs-and-who-could-gain-2000-dividend)
 The distribution of tariff burden, generated with our latest tariff rules engine and input-output model. [Read more](https://taxpolicycenter.org/taxvox/tpc-shows-who-pays-trump-administrations-tariffs-and-who-could-gain-2000-dividend)
-<br>
-<br>
-
-### [Tax Policy Center Tariff Tracker](https://taxpolicycenter.org/features/tracking-trump-tariffs)
-I explain the major categories of tariffs, how they stack, and what the estimated total tariff rate on each country is. [Read more](https://taxpolicycenter.org/features/tracking-trump-tariffs)
-<br>
-<br>
-<img src="images/estimated-total-tariff-rate-by-country-2.png"/>
 <br>
 <br>
 
