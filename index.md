@@ -5,7 +5,7 @@
 ## Microsimulation
 
 ### [TPC Tariff Rules Engine](https://taxpolicycenter.org/resources/tax-model-resources/documentation-tax-policy-centers-business-tax-model)
-To analyze rapidly-changing and complex tariff policies, we built a program that estimates a tariff rate for each product from each origin, for each policy, each day---resulting in 10 billion tariff rates per simulation. This is supported by a YAML-based rule-encoding system that requires no code for adding new policies. [Read more]([https://taxpolicycenter.org/resources/tax-model-resources/documentation-tax-policy-centers-business-tax-model])
+To analyze rapidly-changing and complex tariff policies, we built a program that estimates a tariff rate for each product from each origin, for each policy, each day---resulting in 10 billion tariff rates per simulation. This is supported by a YAML-based rule-encoding system that requires no code for adding new policies. [Read more](https://taxpolicycenter.org/resources/tax-model-resources/documentation-tax-policy-centers-business-tax-model)
 <br>
 <br>
 <img src="images/effect-on-average-tariff-rate-by-tariff-type-2.png"/>
@@ -13,7 +13,7 @@ To analyze rapidly-changing and complex tariff policies, we built a program that
 <br>
 
 ### [TPC Tariff Supply Chain Model](https://taxpolicycenter.org/resources/tax-model-resources/documentation-tax-policy-centers-business-tax-model)
-Tariffs on final goods are determined by tariffs on their intermediate inputs. We use input-output tables to map how goods feed into one another, and estimate final burden and price changes. [Read more]([https://taxpolicycenter.org/resources/tax-model-resources/documentation-tax-policy-centers-business-tax-model])
+Tariffs on final goods are determined by tariffs on their intermediate inputs. We use input-output tables to map how goods feed into one another, and estimate final burden and price changes. [Read more](https://taxpolicycenter.org/resources/tax-model-resources/documentation-tax-policy-centers-business-tax-model)
 <br>
 <br>
 <img src="images/burden_alluvial.png"/>
@@ -21,7 +21,7 @@ Tariffs on final goods are determined by tariffs on their intermediate inputs. W
 <br>
 
 ### [TPC Tariff Revenue Model](https://taxpolicycenter.org/resources/tax-model-resources/documentation-tax-policy-centers-business-tax-model)
-We build a R model that can generally accommodate rapidly changing tariff policy and produce [revenue estimates](https://taxpolicycenter.org/model-estimates/T25-0373). [Read more]([https://taxpolicycenter.org/resources/tax-model-resources/documentation-tax-policy-centers-business-tax-model])
+We build a R model that can generally accommodate rapidly changing tariff policy and produce [revenue estimates](https://taxpolicycenter.org/model-estimates/T25-0373). [Read more](https://taxpolicycenter.org/resources/tax-model-resources/documentation-tax-policy-centers-business-tax-model)
 <br>
 <br>
 <img src="images/trump-administration-tariffs-announced-from-january-20-2025-through-december-04-2025-.png"/>
