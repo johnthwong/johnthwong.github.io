@@ -8,12 +8,15 @@ layout: default
    <button class="tab-btn" data-tab="working-papers">Working Papers</button>
 </nav>
 
+<button id="sort-toggle" class="sort-btn" style="display:none">Sort: Custom</button>
+
 <div class="tab-content">
 
 <div id="microsimulation" class="tab-panel active">
 {% for item in site.data.microsimulation %}
-<div class="card">
+<div class="card" data-date="{{ item.date }}" data-order="{{ forloop.index }}">
    <h3>{{ item.title }}</h3>
+   {% if item.date %}<span class="card-date">{{ item.date }}</span>{% endif %}
    <p>{{ item.description }}</p>
    {% if item.html %}<a class="btn-more" href="{{ item.html }}">More</a>{% endif %}
    {% if item.image %}<div class="card-img-wrapper"><img src="{{ item.image | relative_url }}" alt="{{ item.title }}"></div>{% endif %}
@@ -23,8 +26,9 @@ layout: default
 
 <div id="blogs" class="tab-panel">
 {% for item in site.data.blogs %}
-<div class="card">
+<div class="card" data-date="{{ item.date }}" data-order="{{ forloop.index }}">
    <h3>{{ item.title }}</h3>
+   {% if item.date %}<span class="card-date">{{ item.date }}</span>{% endif %}
    <p>{{ item.description }}</p>
    {% if item.html %}<a class="btn-more" href="{{ item.html }}">More</a>{% endif %}
    {% if item.image %}<div class="card-img-wrapper"><img src="{{ item.image | relative_url }}" alt="{{ item.title }}"></div>{% endif %}
@@ -34,8 +38,9 @@ layout: default
 
 <div id="working-papers" class="tab-panel">
 {% for item in site.data.working_papers %}
-<div class="card">
+<div class="card" data-date="{{ item.date }}" data-order="{{ forloop.index }}">
    <h3>{{ item.title }}</h3>
+   {% if item.date %}<span class="card-date">{{ item.date }}</span>{% endif %}
    <p>{{ item.description }}</p>
    {% if item.html %}<a class="btn-more" href="{{ item.html }}">More</a>{% endif %}
    {% if item.image %}<div class="card-img-wrapper"><img src="{{ item.image | relative_url }}" alt="{{ item.title }}"></div>{% endif %}

@@ -107,10 +107,52 @@
          border-bottom-color: #2563eb;
       }
 
+      .tab-bar {
+         max-width: 860px;
+         margin: 0 auto;
+         padding: 12px 24px 0;
+         display: flex;
+         justify-content: flex-end;
+      }
+
+      .sort-btn {
+         font-family: 'IBM Plex Mono', monospace;
+         font-size: 11px;
+         font-weight: 500;
+         letter-spacing: 0.3px;
+         text-transform: uppercase;
+         color: #94a3b8;
+         background: none;
+         border: 1px solid #e2e8f0;
+         border-radius: 4px;
+         padding: 4px 12px;
+         cursor: pointer;
+         transition: color 0.2s, border-color 0.2s, background 0.2s;
+      }
+
+      .sort-btn:hover {
+         color: #1a1a2e;
+         border-color: #cbd5e1;
+         background: rgba(0, 0, 0, 0.02);
+      }
+
+      .sort-btn.active {
+         color: #2563eb;
+         border-color: #2563eb;
+      }
+
+      .card-date {
+         font-family: 'IBM Plex Mono', monospace;
+         font-size: 12px;
+         color: #94a3b8;
+         display: block;
+         margin-bottom: 6px;
+      }
+
       .tab-content {
          max-width: 860px;
          margin: 0 auto;
-         padding: 8px 24px 24px;
+         padding: 0 24px 24px;
       }
 
       .tab-panel { display: none; }
@@ -160,9 +202,9 @@
          margin: 16px auto 0;
          max-width: 85%;
          background: #fff;
-         border-radius: 8px;
-         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.08);
-         overflow: hidden;
+         padding: 10px;
+         border: 1px solid #e2e8f0;
+         border-radius: 6px;
          display: block;
       }
 
@@ -223,16 +265,41 @@
 
       @media (max-width: 600px) {
          .site-header { padding: 28px 16px 20px; }
-         .tabs { padding: 0 16px; gap: 0; }
-         .tab-btn { padding: 10px 12px; font-size: 12px; }
-         .tab-content { padding: 8px 16px 16px; }
-         .card { margin-left: -12px; padding-left: 12px; }
+         .site-header h1 { font-size: 24px; }
+         .site-header .bio { font-size: 14px; }
+         .tabs {
+            padding: 0 16px;
+            gap: 0;
+            overflow-x: auto;
+            -webkit-overflow-scrolling: touch;
+            scrollbar-width: none;
+         }
+         .tabs::-webkit-scrollbar { display: none; }
+         .tab-btn {
+            padding: 10px 12px;
+            font-size: 11px;
+            white-space: nowrap;
+            flex-shrink: 0;
+         }
+         .tab-bar { padding: 10px 16px 0; }
+         .tab-content { padding: 4px 16px 16px; }
+         .card {
+            margin-left: -12px;
+            padding: 20px 0 20px 12px;
+         }
+         .card h3 { font-size: 15px; }
+         .card p { font-size: 14px; max-width: none; }
+         .card-img-wrapper {
+            max-width: 100%;
+            padding: 6px;
+         }
+         .btn-more { padding: 5px 14px; }
       }
    </style>
 </head>
 <body>
    <header class="site-header">
-      <h1><a href="{{ "/" | absolute_url }}">{{ site.title }}</a></h1>
+      <h1><a href="{{ "/" | absolute_url }}">{{ site.header_title | default: site.title }}</a></h1>
       <div class="bio">{% capture bio %}{% include bio.md %}{% endcapture %}{{ bio | markdownify }}</div>
    </header>
 
@@ -252,18 +319,64 @@
          ripple.addEventListener('animationend', function() { ripple.remove(); });
       }
 
-      document.addEventListener('DOMContentLoaded', function() {
-         var buttons = document.querySelectorAll('.tab-btn');
-         var panels = document.querySelectorAll('.tab-panel');
+      function sortPanel(panel, mode) {
+         var cards = Array.from(panel.querySelectorAll('.card'));
+         cards.sort(function(a, b) {
+            if (mode === 'date') {
+               var da = a.dataset.date || '';
+               var db = b.dataset.date || '';
+               // Both have dates: newest first
+               if (da && db) return db.localeCompare(da);
+               // Only one has a date: dated items first
+               if (da && !db) return -1;
+               if (!da && db) return 1;
+               // Neither has a date: preserve yaml order
+               return parseInt(a.dataset.order) - parseInt(b.dataset.order);
+            }
+            // Custom: yaml order
+            return parseInt(a.dataset.order) - parseInt(b.dataset.order);
+         });
+         cards.forEach(function(card) { panel.appendChild(card); });
+      }
 
-         buttons.forEach(function(btn) {
+      document.addEventListener('DOMContentLoaded', function() {
+         var tabButtons = document.querySelectorAll('.tab-btn');
+         var panels = document.querySelectorAll('.tab-panel');
+         var sortBtn = document.getElementById('sort-toggle');
+         var sortMode = 'custom';
+
+         // Insert sort bar after tabs
+         var tabs = document.querySelector('.tabs');
+         var bar = document.createElement('div');
+         bar.className = 'tab-bar';
+         bar.appendChild(sortBtn.parentElement.removeChild(sortBtn));
+         tabs.parentNode.insertBefore(bar, tabs.nextSibling);
+         sortBtn.style.display = '';
+
+         tabButtons.forEach(function(btn) {
             btn.addEventListener('click', function(e) {
                createRipple(e);
-               buttons.forEach(function(b) { b.classList.remove('active'); });
+               tabButtons.forEach(function(b) { b.classList.remove('active'); });
                panels.forEach(function(p) { p.classList.remove('active'); });
                btn.classList.add('active');
-               document.getElementById(btn.dataset.tab).classList.add('active');
+               var panel = document.getElementById(btn.dataset.tab);
+               panel.classList.add('active');
+               sortPanel(panel, sortMode);
             });
+         });
+
+         sortBtn.addEventListener('click', function() {
+            if (sortMode === 'custom') {
+               sortMode = 'date';
+               sortBtn.textContent = 'Sort: Date';
+               sortBtn.classList.add('active');
+            } else {
+               sortMode = 'custom';
+               sortBtn.textContent = 'Sort: Custom';
+               sortBtn.classList.remove('active');
+            }
+            var activePanel = document.querySelector('.tab-panel.active');
+            if (activePanel) sortPanel(activePanel, sortMode);
          });
 
          document.querySelectorAll('.btn-more').forEach(function(btn) {
