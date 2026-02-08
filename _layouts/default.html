@@ -65,6 +65,15 @@
          padding: 40px 24px 28px;
       }
 
+      .profile-pic {
+         float: right;
+         width: 120px;
+         height: 120px;
+         object-fit: cover;
+         image-rendering: pixelated;
+         margin: 0 0 12px 20px;
+      }
+
       .site-header h1 {
          font-family: 'IBM Plex Mono', monospace;
          font-size: 30px;
@@ -297,6 +306,13 @@
          .site-header { padding: 28px 16px 20px; }
          .site-header h1 { font-size: 24px; }
          .site-header .bio { font-size: 14px; }
+         .profile-pic {
+            float: none;
+            display: block;
+            width: 80px;
+            height: 80px;
+            margin: 0 0 12px 0;
+         }
          .tabs {
             padding: 0 16px;
             gap: 0;
@@ -335,6 +351,7 @@
    </nav>
 
    <header class="site-header">
+      <img src="{{ "/images/profile-pixel.png" | relative_url }}" alt="Profile picture" class="profile-pic">
       <h1><a href="{{ "/" | absolute_url }}">{{ site.header_title | default: site.title }}</a></h1>
       <div class="bio">{% capture bio %}{% include bio.md %}{% endcapture %}{{ bio | markdownify }}</div>
       <p class="features" id="features-line"></p>
