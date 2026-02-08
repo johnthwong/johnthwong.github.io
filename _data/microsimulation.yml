@@ -1,0 +1,44 @@
+- title: TPC Tariff Rules Engine
+  description: >
+    To analyze rapidly-changing and complex tariff policies, we built a program
+    that estimates a tariff rate for each product from each origin, for each
+    policy, each day---resulting in 10 billion tariff rates per simulation. This
+    is supported by a YAML-based rule-encoding system that requires no code for
+    adding new policies.
+  html: https://taxpolicycenter.org/projects/resources/description-tax-policy-centers-tariff-models
+  image: images/effect-on-average-tariff-rate-by-tariff-type-2.png
+
+- title: TPC Tariff Supply Chain Model
+  description: >
+    Tariffs on final goods are determined by tariffs on their intermediate
+    inputs. We use input-output tables to map how goods feed into one another,
+    and estimate final burden and price changes.
+  html: https://taxpolicycenter.org/projects/resources/description-tax-policy-centers-tariff-models
+  image: images/burden_alluvial.png
+
+- title: TPC Tariff Revenue Model
+  description: >
+    We build a R model that can generally accommodate rapidly changing tariff
+    policy and produce revenue estimates.
+  html: https://taxpolicycenter.org/projects/resources/description-tax-policy-centers-tariff-models
+  image: images/trump-administration-tariffs-announced-from-january-20-2025-through-december-04-2025-.png
+
+- title: Macroeconomic Agent-Based Model
+  description: >
+    A macroeconomy simulated with two types of software agents: households that
+    decide whom to buy from and work for, and firms that decide headcount,
+    wages, and prices. This is a Lengnick model, which shows that even without
+    exogenous shocks, recessions can just emerge from economic agents
+    temporarily failing to coordinate with each other.
+  html: https://github.com/johnthwong/mabm
+  image: images/mabm_employment.png
+
+- title: Agent-Based General Equilibrium Model
+  description: >
+    An agent-based model of a general bilateral exchange problem of any A agents
+    and any N goods. This model uses boundedly rational agents, in the sense
+    that the agents iteratively make trades without knowing the optimal
+    quantities that maximize their utility. It can obtain a decentralized,
+    numerical solution to a general equilibrium problem.
+  html: https://github.com/johnthwong/bi-exchange
+  image: images/edgeworth_plus.png

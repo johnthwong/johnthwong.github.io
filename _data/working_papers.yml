@@ -1,0 +1,26 @@
+- title: The Problem With Historical Instrumental Variables
+  description: >
+    Many instrumental variable papers that identify treatment variations over
+    long time periods are misspecified. I use difference equations, VAR
+    representations, and Monte Carlo simulations to demonstrate this. I also
+    propose a remedial two-stage-least-squares specification to correct for
+    bias.
+  html: https://github.com/johnthwong/mendelian/blob/main/note.pdf
+  image: images/mendelian_mc.png
+
+- title: The Causal Effect of Regulation on Economic Growth
+  description: >
+    I wrote a paper with Patrick McLaughlin on using state age to estimate how
+    increasing regulation causally affects growth. This project leverages the
+    QuantGov project's State RegData.
+  html: https://www.mercatus.org/research/working-papers/causal-effect-regulations-economic-growth-evidence-us-states
+  image: images/Rplot_olson_reg_age.png
+
+- title: Learning What We Like
+  description: >
+    A model of preference discovery with Alex Tabarrok.
+
+- title: How Monopolistic is iMessage?
+  description: >
+    To what extent does iMessage confer a monopolistic advantage to Apple? I
+    estimate how much the service changes the demand elasticity for iPhones.
