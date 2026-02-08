@@ -1,5 +1,5 @@
 - title: TPC Tariff Rules Engine
-  description: "To analyze rapidly-changing and complex tariff policies, I built a program that estimates a tariff rate for each product from each origin, for each policy, each day—-resulting in 10 billion tariff rates per simulation. This is supported by a YAML-based rule-encoding system that requires no code for adding new policies."
+  description: "To analyze rapidly-changing and complex tariff policies, I built a program that estimates a tariff rate for each product from each origin, for each policy, each day—resulting in 10 billion tariff rates per simulation. This is supported by a YAML-based rule-encoding system that requires no code for adding new policies."
   html: https://taxpolicycenter.org/projects/resources/description-tax-policy-centers-tariff-models
   image: images/average-applied-tariff-rate-by-tariff-type.png
   date: 2025-11-21
