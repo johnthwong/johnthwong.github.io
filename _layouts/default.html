@@ -483,7 +483,12 @@
          // Header features line
          var headerParts = buildFeaturesParts(_allFeatures);
          var el = document.getElementById('features-line');
-         if (headerParts.length) el.innerHTML = 'Estimates featured in ' + headerParts.join(', ') + '.';
+         if (headerParts.length) {
+            var joined = headerParts.length > 1
+               ? headerParts.slice(0, -1).join(', ') + ', and ' + headerParts[headerParts.length - 1]
+               : headerParts[0];
+            el.innerHTML = 'Estimates featured in ' + joined + '.';
+         }
 
          // Per-card cites
          document.querySelectorAll('.card-cites').forEach(function(cite) {
