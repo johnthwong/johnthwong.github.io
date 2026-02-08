@@ -9,6 +9,13 @@
       link: https://www.wsj.com/economy/trade/chinas-exports-rebound-in-november-97f24e06?st=mnKose&reflink=desktopwebshare_permalink
     - publication: Politifact
       link: https://www.politifact.com/article/2025/nov/10/Trump-tariff-dividend-2000-stimulus/
+    - publication: The Conversation
+      link: https://theconversation.com/the-world-trade-organization-is-on-life-support-will-trumps-new-rules-finish-it-off-273216
+    - publication: CNBC
+      link: https://www.cnbc.com/2026/01/16/trump-greenland-tariffs.html
+    - publication: MarketWatch
+      link: https://www.marketwatch.com/story/investors-are-ready-for-the-supreme-court-to-strike-down-trumps-tariffs-now-its-up-to-the-economy-to-pick-up-086d3f5b
+
 
 - title: "TPC: How Do Tariffs Flow Through Supply Chains?"
   description: "I explain how TPC applies input-output analysis for tariffs."
@@ -65,6 +72,9 @@
   image: images/MEFKK-tariff-rates-on-consumer-goods-.png
   date: 2025-07-08
   date_label: publication
+  features:
+    - publication: Marketplace
+      link: https://www.marketplace.org/episode/2025/07/09/the-countdown-to-a-government-shutdown-begins-again
 
 - title: "PPI: Most U.S. Government Borrowing Just Pays for More Borrowing"
   description: "Nearly 40 percent of U.S. government debt today was issued just to cover interest on previous debt, and this problem is poised to worsen as recent borrowing accrues interest and Congress further cuts revenue."
