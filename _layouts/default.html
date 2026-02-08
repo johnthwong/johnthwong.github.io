@@ -180,13 +180,15 @@
          border-color: #ff2d78;
       }
 
-      .card-date {
+      .card-date,
+      .card .card-cites {
          font-family: 'IBM Plex Mono', monospace;
          font-size: 12px;
          color: #94a3b8;
          display: block;
-         margin-bottom: 6px;
       }
+
+      .card-date { margin-bottom: 6px; }
 
       .tab-content {
          max-width: 860px;
@@ -236,6 +238,10 @@
          margin-bottom: 14px;
          max-width: 680px;
       }
+
+      .card-cites { margin-top: 12px; margin-bottom: 0; }
+      .card-cites a { color: #94a3b8; }
+      .card-cites a:hover { color: #ff2d78; }
 
       .card-img-wrapper {
          margin: 16px auto 0;
@@ -447,32 +453,44 @@
             btn.addEventListener('click', function(e) { createRipple(e); });
          });
 
-         // Build features line: named pubs first (in featured_publications order), then unnamed (alphabetical)
-         var grouped = {};
-         _allFeatures.forEach(function(f) {
-            if (!grouped[f.pub]) { grouped[f.pub] = []; }
-            grouped[f.pub].push(f.link);
-         });
-         var sortedPubs = Object.keys(grouped).sort(function(a, b) {
-            var ia = _pubOrder.indexOf(a);
-            var ib = _pubOrder.indexOf(b);
-            if (ia !== -1 && ib !== -1) return ia - ib;
-            if (ia !== -1) return -1;
-            if (ib !== -1) return 1;
-            return a.localeCompare(b);
-         });
-         var parts = sortedPubs.map(function(pub) {
-            var links = grouped[pub];
-            if (links.length === 1) {
-               return '<a href="' + links[0] + '">' + pub + '</a>';
-            }
-            var numbered = links.map(function(l, i) {
-               return '<a href="' + l + '">' + (i + 1) + '</a>';
-            }).join(', ');
-            return pub + ' (' + numbered + ')';
-         });
+         // Group features by publication and build HTML fragments
+         function buildFeaturesParts(features) {
+            var grouped = {};
+            features.forEach(function(f) {
+               if (!grouped[f.pub]) { grouped[f.pub] = []; }
+               grouped[f.pub].push(f.link);
+            });
+            var sortedPubs = Object.keys(grouped).sort(function(a, b) {
+               var ia = _pubOrder.indexOf(a);
+               var ib = _pubOrder.indexOf(b);
+               if (ia !== -1 && ib !== -1) return ia - ib;
+               if (ia !== -1) return -1;
+               if (ib !== -1) return 1;
+               return a.localeCompare(b);
+            });
+            return sortedPubs.map(function(pub) {
+               var links = grouped[pub];
+               if (links.length === 1) {
+                  return '<a href="' + links[0] + '">' + pub + '</a>';
+               }
+               var numbered = links.map(function(l, i) {
+                  return '<a href="' + l + '">' + (i + 1) + '</a>';
+               }).join(', ');
+               return pub + ' (' + numbered + ')';
+            });
+         }
+
+         // Header features line
+         var headerParts = buildFeaturesParts(_allFeatures);
          var el = document.getElementById('features-line');
-         if (parts.length) el.innerHTML = 'Estimates featured in ' + parts.join(', ') + '.';
+         if (headerParts.length) el.innerHTML = 'Estimates featured in ' + headerParts.join(', ') + '.';
+
+         // Per-card cites
+         document.querySelectorAll('.card-cites').forEach(function(cite) {
+            var features = JSON.parse(cite.getAttribute('data-features'));
+            var parts = buildFeaturesParts(features);
+            if (parts.length) cite.innerHTML = 'CITES: ' + parts.join(', ');
+         });
       });
    </script>
 </body>
