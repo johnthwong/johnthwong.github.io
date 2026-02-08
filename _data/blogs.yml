@@ -3,6 +3,8 @@
     TPC's latest analysis on tariffs visualized.
   html: https://taxpolicycenter.org/features/tracking-trump-tariffs
   image: images/estimated-total-tariff-rate-by-country-2.png
+  date: 2026-01-09
+  date_label: launch
   features:
     - publication: Wall Street Journal
       link: https://www.wsj.com/economy/trade/chinas-exports-rebound-in-november-97f24e06?st=mnKose&reflink=desktopwebshare_permalink
@@ -13,13 +15,15 @@
   description: >
     I explain how TPC applies input-output analysis for tariffs.
   html: https://taxpolicycenter.org/taxvox/how-do-tariffs-flow-through-supply-chains
-  date: 2026-01-26
+  date: 2026-01-08
+  date_label: publication
 
 - title: "Modeling Tariff Complexity: How TPC Tracks Billions of Policy Combinations"
   description: >
     I introduce TPC's Tariff Rules Engine and its capabilities.
   html: https://taxpolicycenter.org/taxvox/modeling-tariff-complexity-how-tpc-tracks-billions-policy-combinations
   date: 2025-11-21
+  date_label: publication
   features:
     - publication: Datawrapper
       link: https://www.datawrapper.de
@@ -31,6 +35,7 @@
     investment in residential structures.
   html: https://www.brookings.edu/articles/recent-tariffs-threaten-residential-construction/
   date: 2025-10-03
+  date_label: publication
   features:
     - publication: New York Times
       link: https://www.nytimes.com/2026/01/13/us/politics/trump-housing-costs.html?unlocked_article_code=1.EFA.zqzN.8Nrcn81fZNO8&smid=url-share
@@ -43,6 +48,7 @@
     tariffs and simulate new tariffs.
   html: https://taxpolicycenter.org/taxvox/supreme-court-ruling-ieepa-tariffs-could-ease-cost-burdens-less-you-might-think
   date: 2025-12-09
+  date_label: publication
   features:
     - publication: Financial Times
       link: https://giftarticle.ft.com/giftarticle/actions/redeem/dc5aebf8-3f34-4297-8464-92137ea7efe7
@@ -53,6 +59,7 @@
     engine and input-output model.
   html: https://taxpolicycenter.org/taxvox/tpc-shows-who-pays-trump-administrations-tariffs-and-who-could-gain-2000-dividend
   date: 2025-12-12
+  date_label: publication
 
 - title: "TPC: Tariffs On Movies Would Face Very High Hurdles"
   description: >
@@ -60,6 +67,7 @@
     import duties on intellectual property.
   html: https://taxpolicycenter.org/taxvox/tariffs-movies-would-face-very-high-hurdles
   date: 2025-11-05
+  date_label: publication
 
 - title: "TPC: Too Many Goods Are About To Face Historically High Tariffs"
   description: >
@@ -70,6 +78,7 @@
   html: https://taxpolicycenter.org/taxvox/too-many-goods-are-about-face-historically-high-tariffs
   image: images/MEFKK-tariff-rates-on-consumer-goods-.png
   date: 2025-07-08
+  date_label: publication
 
 - title: "PPI: Most U.S. Government Borrowing Just Pays for More Borrowing"
   description: >
@@ -79,3 +88,4 @@
   html: https://www.progressivepolicy.org/most-u-s-government-borrowing-just-pays-for-more-borrowing/
   image: images/debt_interest_share.png
   date: 2024-12-11
+  date_label: publication

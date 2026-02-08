@@ -16,7 +16,7 @@ layout: default
 {% for item in site.data.microsimulation %}
 <div class="card" data-date="{{ item.date }}" data-order="{{ forloop.index }}">
    <h3>{{ item.title }}</h3>
-   {% if item.date %}<span class="card-date">{{ item.date }}</span>{% endif %}
+   {% if item.date %}<span class="card-date">{% if item.date_label %}{{ item.date_label | upcase }} {% endif %}DATE: {{ item.date }}</span>{% endif %}
    <p>{{ item.description }}</p>
    {% if item.html %}<a class="btn-more" href="{{ item.html }}">More</a>{% endif %}
    {% if item.image %}<div class="card-img-wrapper"><img src="{{ item.image | relative_url }}" alt="{{ item.title }}"></div>{% endif %}
@@ -28,7 +28,7 @@ layout: default
 {% for item in site.data.blogs %}
 <div class="card" data-date="{{ item.date }}" data-order="{{ forloop.index }}">
    <h3>{{ item.title }}</h3>
-   {% if item.date %}<span class="card-date">{{ item.date }}</span>{% endif %}
+   {% if item.date %}<span class="card-date">{% if item.date_label %}{{ item.date_label | upcase }} {% endif %}DATE: {{ item.date }}</span>{% endif %}
    <p>{{ item.description }}</p>
    {% if item.html %}<a class="btn-more" href="{{ item.html }}">More</a>{% endif %}
    {% if item.image %}<div class="card-img-wrapper"><img src="{{ item.image | relative_url }}" alt="{{ item.title }}"></div>{% endif %}
@@ -40,7 +40,7 @@ layout: default
 {% for item in site.data.working_papers %}
 <div class="card" data-date="{{ item.date }}" data-order="{{ forloop.index }}">
    <h3>{{ item.title }}</h3>
-   {% if item.date %}<span class="card-date">{{ item.date }}</span>{% endif %}
+   {% if item.date %}<span class="card-date">{% if item.date_label %}{{ item.date_label | upcase }} {% endif %}DATE: {{ item.date }}</span>{% endif %}
    <p>{{ item.description }}</p>
    {% if item.html %}<a class="btn-more" href="{{ item.html }}">More</a>{% endif %}
    {% if item.image %}<div class="card-img-wrapper"><img src="{{ item.image | relative_url }}" alt="{{ item.title }}"></div>{% endif %}

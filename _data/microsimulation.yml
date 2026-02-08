@@ -7,6 +7,8 @@
     adding new policies.
   html: https://taxpolicycenter.org/projects/resources/description-tax-policy-centers-tariff-models
   image: images/effect-on-average-tariff-rate-by-tariff-type-2.png
+  date: 2025-11-21
+  date_label: launch
 
 - title: TPC Tariff Supply Chain Model
   description: >
@@ -15,6 +17,8 @@
     and estimate final burden and price changes.
   html: https://taxpolicycenter.org/projects/resources/description-tax-policy-centers-tariff-models
   image: images/burden_alluvial.png
+  date: 2025-12-12
+  date_label: launch
 
 - title: TPC Tariff Revenue Model
   description: >
@@ -22,6 +26,8 @@
     policy and produce revenue estimates.
   html: https://taxpolicycenter.org/projects/resources/description-tax-policy-centers-tariff-models
   image: images/trump-administration-tariffs-announced-from-january-20-2025-through-december-04-2025-.png
+  date: 2025-10-24
+  date_label: launch
 
 - title: Macroeconomic Agent-Based Model
   description: >
@@ -32,6 +38,8 @@
     temporarily failing to coordinate with each other.
   html: https://github.com/johnthwong/mabm
   image: images/mabm_employment.png
+  date: 2025-05-21
+  date_label: launch
 
 - title: Agent-Based General Equilibrium Model
   description: >
@@ -42,3 +50,5 @@
     numerical solution to a general equilibrium problem.
   html: https://github.com/johnthwong/bi-exchange
   image: images/edgeworth_plus.png
+  date: 2025-04-08
+  date_label: launch
