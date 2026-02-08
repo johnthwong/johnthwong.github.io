@@ -3,6 +3,11 @@
     TPC's latest analysis on tariffs visualized.
   html: https://taxpolicycenter.org/features/tracking-trump-tariffs
   image: images/estimated-total-tariff-rate-by-country-2.png
+  features:
+    - publication: Wall Street Journal
+      link: https://www.wsj.com/economy/trade/chinas-exports-rebound-in-november-97f24e06?st=mnKose&reflink=desktopwebshare_permalink
+    - publication: Politifact
+      link: https://www.politifact.com/article/2025/nov/10/Trump-tariff-dividend-2000-stimulus/
 
 - title: "TPC: How Do Tariffs Flow Through Supply Chains?"
   description: >
@@ -15,6 +20,9 @@
     I introduce TPC's Tariff Rules Engine and its capabilities.
   html: https://taxpolicycenter.org/taxvox/modeling-tariff-complexity-how-tpc-tracks-billions-policy-combinations
   date: 2025-11-21
+  features:
+    - publication: Datawrapper
+      link: https://www.datawrapper.de
 
 - title: "Brookings: Recent Tariffs Threaten Residential Construction"
   description: >
@@ -23,6 +31,11 @@
     investment in residential structures.
   html: https://www.brookings.edu/articles/recent-tariffs-threaten-residential-construction/
   date: 2025-10-03
+  features:
+    - publication: New York Times
+      link: https://www.nytimes.com/2026/01/13/us/politics/trump-housing-costs.html?unlocked_article_code=1.EFA.zqzN.8Nrcn81fZNO8&smid=url-share
+    - publication: Center for American Progress
+      link: https://www.americanprogress.org/article/trump-administration-tariffs-could-result-in-450000-fewer-new-homes-through-2030/
 
 - title: "TPC: Supreme Court Ruling on IEEPA Tariffs Could Ease Cost Burdens, But Less Than You Might Think"
   description: >
@@ -30,6 +43,9 @@
     tariffs and simulate new tariffs.
   html: https://taxpolicycenter.org/taxvox/supreme-court-ruling-ieepa-tariffs-could-ease-cost-burdens-less-you-might-think
   date: 2025-12-09
+  features:
+    - publication: Financial Times
+      link: https://giftarticle.ft.com/giftarticle/actions/redeem/dc5aebf8-3f34-4297-8464-92137ea7efe7
 
 - title: "TPC Shows Who Pays Trump Administration's Tariffs And Who Could Gain From $2,000 Dividend"
   description: >

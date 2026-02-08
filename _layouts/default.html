@@ -28,15 +28,33 @@
          background: #fafafa;
       }
 
-      a { color: #2563eb; text-decoration: none; }
+      a { color: #ff2d78; text-decoration: none; }
       a:hover { text-decoration: underline; }
 
-      /* top accent bar */
-      body::before {
-         content: '';
-         display: block;
-         height: 3px;
-         background: linear-gradient(90deg, #2563eb, #7c3aed);
+      .top-links {
+         max-width: 860px;
+         margin: 0 auto;
+         padding: 14px 24px 0;
+         text-align: center;
+         font-family: 'IBM Plex Mono', monospace;
+         font-size: 11px;
+         font-weight: 500;
+         letter-spacing: 0.5px;
+      }
+
+      .top-links a {
+         color: #94a3b8;
+         transition: color 0.2s;
+      }
+
+      .top-links a:hover {
+         color: #ff2d78;
+         text-decoration: none;
+      }
+
+      .link-sep {
+         color: #cbd5e1;
+         margin: 0 8px;
       }
 
       .site-header {
@@ -54,7 +72,7 @@
       }
 
       .site-header h1 a { color: #1a1a2e; }
-      .site-header h1 a:hover { text-decoration: none; color: #2563eb; transition: color 0.2s; }
+      .site-header h1 a:hover { text-decoration: none; color: #ff2d78; transition: color 0.2s; }
 
       .site-header .bio {
          font-size: 15px;
@@ -64,7 +82,7 @@
 
       .site-header .bio p { margin-bottom: 4px; }
       .site-header .bio p:last-child { margin-bottom: 0; }
-      .site-header .bio a { color: #2563eb; }
+      .site-header .bio a { color: #ff2d78; }
 
       .site-header .features {
          font-size: 14px;
@@ -73,7 +91,7 @@
       }
 
       .site-header .features a { color: #64748b; }
-      .site-header .features a:hover { color: #2563eb; }
+      .site-header .features a:hover { color: #ff2d78; }
 
       .tabs {
          max-width: 860px;
@@ -112,8 +130,8 @@
       }
 
       .tab-btn.active {
-         color: #2563eb;
-         border-bottom-color: #2563eb;
+         color: #ff2d78;
+         border-bottom-color: #ff2d78;
       }
 
       .tab-bar {
@@ -146,8 +164,8 @@
       }
 
       .sort-btn.active {
-         color: #2563eb;
-         border-color: #2563eb;
+         color: #ff2d78;
+         border-color: #ff2d78;
       }
 
       .card-date {
@@ -185,8 +203,8 @@
       }
 
       .card:hover {
-         border-left-color: #2563eb;
-         background: rgba(37, 99, 235, 0.02);
+         border-left-color: #ff2d78;
+         background: rgba(255, 45, 120, 0.02);
       }
 
       .card:last-child { border-bottom: none; }
@@ -231,8 +249,8 @@
          font-weight: 500;
          letter-spacing: 0.3px;
          text-transform: uppercase;
-         color: #2563eb;
-         border: 1px solid #2563eb;
+         color: #64748b;
+         border: 1px solid #cbd5e1;
          border-radius: 4px;
          padding: 5px 16px;
          position: relative;
@@ -241,9 +259,10 @@
       }
 
       .btn-more:hover {
-         background: #2563eb;
+         background: #ff2d78;
          color: #fff;
-         box-shadow: 0 2px 8px rgba(37, 99, 235, 0.3);
+         border-color: #ff2d78;
+         box-shadow: 0 2px 8px rgba(255, 45, 120, 0.3);
          text-decoration: none;
       }
 
@@ -262,7 +281,7 @@
       }
 
       .tab-btn .ripple {
-         background: rgba(37, 99, 235, 0.12);
+         background: rgba(255, 45, 120, 0.12);
       }
 
       @keyframes ripple-expand {
@@ -307,10 +326,24 @@
    </style>
 </head>
 <body>
+   <nav class="top-links">
+      {% for item in site.data.links %}
+      <a href="{{ item.url }}">{{ item.name | upcase }}</a>{% unless forloop.last %}<span class="link-sep">/</span>{% endunless %}
+      {% endfor %}
+   </nav>
+
    <header class="site-header">
       <h1><a href="{{ "/" | absolute_url }}">{{ site.header_title | default: site.title }}</a></h1>
       <div class="bio">{% capture bio %}{% include bio.md %}{% endcapture %}{{ bio | markdownify }}</div>
-      <p class="features">Estimates featured in {% for item in site.data.features %}{% if item.links.size == 1 %}<a href="{{ item.links[0] }}">{{ item.publication }}</a>{% else %}<span class="feature-pub">{{ item.publication }} ({% for link in item.links %}<a href="{{ link }}">{{ forloop.index }}</a>{% unless forloop.last %}, {% endunless %}{% endfor %})</span>{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}.</p>
+      <p class="features" id="features-line"></p>
+      <script>
+         var _allFeatures = [
+            {% for item in site.data.microsimulation %}{% if item.features %}{% for f in item.features %}{"pub":"{{ f.publication }}","link":"{{ f.link }}"},{% endfor %}{% endif %}{% endfor %}
+            {% for item in site.data.blogs %}{% if item.features %}{% for f in item.features %}{"pub":"{{ f.publication }}","link":"{{ f.link }}"},{% endfor %}{% endif %}{% endfor %}
+            {% for item in site.data.working_papers %}{% if item.features %}{% for f in item.features %}{"pub":"{{ f.publication }}","link":"{{ f.link }}"},{% endfor %}{% endif %}{% endfor %}
+         ];
+         var _pubOrder = [{% for pub in site.data.featured_publications %}"{{ pub }}"{% unless forloop.last %},{% endunless %}{% endfor %}];
+      </script>
    </header>
 
    {{ content }}
@@ -392,6 +425,33 @@
          document.querySelectorAll('.btn-more').forEach(function(btn) {
             btn.addEventListener('click', function(e) { createRipple(e); });
          });
+
+         // Build features line: named pubs first (in featured_publications order), then unnamed (alphabetical)
+         var grouped = {};
+         _allFeatures.forEach(function(f) {
+            if (!grouped[f.pub]) { grouped[f.pub] = []; }
+            grouped[f.pub].push(f.link);
+         });
+         var sortedPubs = Object.keys(grouped).sort(function(a, b) {
+            var ia = _pubOrder.indexOf(a);
+            var ib = _pubOrder.indexOf(b);
+            if (ia !== -1 && ib !== -1) return ia - ib;
+            if (ia !== -1) return -1;
+            if (ib !== -1) return 1;
+            return a.localeCompare(b);
+         });
+         var parts = sortedPubs.map(function(pub) {
+            var links = grouped[pub];
+            if (links.length === 1) {
+               return '<a href="' + links[0] + '">' + pub + '</a>';
+            }
+            var numbered = links.map(function(l, i) {
+               return '<a href="' + l + '">' + (i + 1) + '</a>';
+            }).join(', ');
+            return pub + ' (' + numbered + ')';
+         });
+         var el = document.getElementById('features-line');
+         if (parts.length) el.innerHTML = 'Estimates featured in ' + parts.join(', ') + '.';
       });
    </script>
 </body>
