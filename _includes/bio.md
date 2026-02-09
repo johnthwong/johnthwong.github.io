@@ -1,1 +1,1 @@
-Research Analyst at the Urban-Brookings Tax Policy Center.
+Research Analyst at the Urban-Brookings Tax Policy Center
