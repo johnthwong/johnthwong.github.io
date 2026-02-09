@@ -199,12 +199,22 @@
       .tab-panel { display: none; }
       .tab-panel.active {
          display: block;
-         animation: fadeIn 0.25s ease-out;
+         animation: slideFromRight 0.25s ease-out;
+      }
+      .tab-panel.active.slide-left {
+         animation: slideFromLeft 0.25s ease-out;
+      }
+      .tab-panel.active.slide-right {
+         animation: slideFromRight 0.25s ease-out;
       }
 
-      @keyframes fadeIn {
-         from { opacity: 0; transform: translateY(6px); }
-         to { opacity: 1; transform: translateY(0); }
+      @keyframes slideFromRight {
+         from { opacity: 0; transform: translateX(30px); }
+         to { opacity: 1; transform: translateX(0); }
+      }
+      @keyframes slideFromLeft {
+         from { opacity: 0; transform: translateX(-30px); }
+         to { opacity: 1; transform: translateX(0); }
       }
 
       .card {
@@ -429,14 +439,23 @@
          tabs.parentNode.insertBefore(bar, tabs.nextSibling);
          sortBtn.style.display = '';
 
+         var slideDir = '';
+
          tabButtons.forEach(function(btn) {
             btn.addEventListener('click', function(e) {
                createRipple(e);
+               var prevBtn = document.querySelector('.tab-btn.active');
                tabButtons.forEach(function(b) { b.classList.remove('active'); });
-               panels.forEach(function(p) { p.classList.remove('active'); });
+               panels.forEach(function(p) { p.classList.remove('active'); p.classList.remove('slide-left', 'slide-right'); });
                btn.classList.add('active');
                var panel = document.getElementById(btn.dataset.tab);
-               panel.classList.add('active');
+               var dir = slideDir;
+               if (!dir) {
+                  var btns = Array.from(tabButtons);
+                  dir = btns.indexOf(btn) > btns.indexOf(prevBtn) ? 'right' : 'left';
+               }
+               panel.classList.add('active', 'slide-' + dir);
+               slideDir = '';
                sortPanel(panel, sortMode);
             });
          });
@@ -496,25 +515,53 @@
             el.innerHTML = 'Estimates featured in ' + joined + '.';
          }
 
-         // Swipe between tabs on touch devices
+         // Swipe/drag between tabs
          var tabContent = document.querySelector('.tab-content');
-         var touchStartX = 0;
-         var touchStartY = 0;
-         tabContent.addEventListener('touchstart', function(e) {
-            touchStartX = e.changedTouches[0].clientX;
-            touchStartY = e.changedTouches[0].clientY;
-         }, { passive: true });
-         tabContent.addEventListener('touchend', function(e) {
-            var dx = e.changedTouches[0].clientX - touchStartX;
-            var dy = e.changedTouches[0].clientY - touchStartY;
+         var dragStartX = 0;
+         var dragStartY = 0;
+
+         function handleDragEnd(dx, dy) {
             if (Math.abs(dx) < 50 || Math.abs(dy) > Math.abs(dx)) return;
             var activeBtn = document.querySelector('.tab-btn.active');
             var btns = Array.from(tabButtons);
             var idx = btns.indexOf(activeBtn);
             var next = dx < 0 ? idx + 1 : idx - 1;
             if (next < 0 || next >= btns.length) return;
+            slideDir = dx < 0 ? 'right' : 'left';
             btns[next].click();
+         }
+
+         tabContent.addEventListener('touchstart', function(e) {
+            dragStartX = e.changedTouches[0].clientX;
+            dragStartY = e.changedTouches[0].clientY;
          }, { passive: true });
+         tabContent.addEventListener('touchend', function(e) {
+            handleDragEnd(e.changedTouches[0].clientX - dragStartX, e.changedTouches[0].clientY - dragStartY);
+         }, { passive: true });
+
+         var scrollAccum = 0;
+         var scrollCooldown = false;
+         var scrollTimeout;
+         tabContent.addEventListener('wheel', function(e) {
+            if (Math.abs(e.deltaY) > Math.abs(e.deltaX)) return;
+            e.preventDefault();
+            clearTimeout(scrollTimeout);
+            scrollTimeout = setTimeout(function() { scrollAccum = 0; }, 300);
+            if (scrollCooldown) return;
+            scrollAccum += e.deltaX;
+            if (Math.abs(scrollAccum) < 150) return;
+            var dir = scrollAccum > 0 ? 1 : -1;
+            scrollAccum = 0;
+            scrollCooldown = true;
+            setTimeout(function() { scrollCooldown = false; }, 400);
+            slideDir = dir > 0 ? 'right' : 'left';
+            var activeBtn = document.querySelector('.tab-btn.active');
+            var btns = Array.from(tabButtons);
+            var idx = btns.indexOf(activeBtn);
+            var next = idx + dir;
+            if (next < 0 || next >= btns.length) return;
+            btns[next].click();
+         });
 
          // Per-card cites
          document.querySelectorAll('.card-cites').forEach(function(cite) {
