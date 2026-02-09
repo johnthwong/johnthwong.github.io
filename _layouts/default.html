@@ -532,6 +532,7 @@
             var next = dx < 0 ? idx + 1 : idx - 1;
             if (next < 0 || next >= btns.length) return;
             slideDir = dx < 0 ? 'right' : 'left';
+            tabs.scrollIntoView({ behavior: 'instant' });
             btns[next].click();
          }
 
@@ -564,6 +565,7 @@
             var idx = btns.indexOf(activeBtn);
             var next = idx + dir;
             if (next < 0 || next >= btns.length) return;
+            tabs.scrollIntoView({ behavior: 'instant' });
             btns[next].click();
          });
 
