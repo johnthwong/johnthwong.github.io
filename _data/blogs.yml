@@ -5,7 +5,7 @@
   date: 2026-01-09
   date_label: launch
   features:
-    - publication: Wall Street Journal
+    - publication: The Wall Street Journal
       link: https://www.wsj.com/economy/trade/chinas-exports-rebound-in-november-97f24e06?st=mnKose&reflink=desktopwebshare_permalink
     - publication: Politifact
       link: https://www.politifact.com/article/2025/nov/10/Trump-tariff-dividend-2000-stimulus/
@@ -38,7 +38,7 @@
   date: 2025-10-03
   date_label: publication
   features:
-    - publication: New York Times
+    - publication: The New York Times
       link: https://www.nytimes.com/2026/01/13/us/politics/trump-housing-costs.html?unlocked_article_code=1.EFA.zqzN.8Nrcn81fZNO8&smid=url-share
     - publication: Center for American Progress
       link: https://www.americanprogress.org/article/trump-administration-tariffs-could-result-in-450000-fewer-new-homes-through-2030/
