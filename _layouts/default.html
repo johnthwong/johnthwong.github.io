@@ -571,7 +571,7 @@
          document.querySelectorAll('.card-cites').forEach(function(cite) {
             var features = JSON.parse(cite.getAttribute('data-features'));
             var parts = buildFeaturesParts(features);
-            if (parts.length) cite.innerHTML = 'CITES: ' + parts.join(', ');
+            if (parts.length) cite.innerHTML = 'CITED BY: ' + parts.join(', ');
          });
       });
    </script>
