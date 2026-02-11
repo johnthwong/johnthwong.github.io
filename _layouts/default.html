@@ -374,9 +374,9 @@
 </head>
 <body>
    <nav class="top-links">
-      {%- for item in site.data.links %}
+      {%- for item in site.data.links -%}
       <a href="{{ item.url }}">{{ item.name | upcase }}</a>{% unless forloop.last %}<span class="link-sep">·</span>{% endunless %}
-      {%- endfor %}
+      {%- endfor -%}
    </nav>
 
    <header class="site-header">
