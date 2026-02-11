@@ -1,8 +1,6 @@
-- name: LinkedIn
-  url: https://www.linkedin.com/in/johnthwong
-
-- name: GitHub
-  url: https://github.com/johnthwong
-
 - name: TPC
   url: https://taxpolicycenter.org/author/john-wong
+- name: GitHub
+  url: https://github.com/johnthwong
+- name: LinkedIn
+  url: https://www.linkedin.com/in/johnthwong
