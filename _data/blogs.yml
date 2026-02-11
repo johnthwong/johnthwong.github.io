@@ -15,7 +15,8 @@
       link: https://www.cnbc.com/2026/01/16/trump-greenland-tariffs.html
     - publication: MarketWatch
       link: https://www.marketwatch.com/story/investors-are-ready-for-the-supreme-court-to-strike-down-trumps-tariffs-now-its-up-to-the-economy-to-pick-up-086d3f5b
-
+    - publication: The New York Times
+      link: https://www.nytimes.com/2026/02/02/business/trump-tariffs-one-year-later.html?unlocked_article_code=1.LVA.63YG.iNkNVzyWGHM1&smid=url-share
 
 - title: "TPC: How Do Tariffs Flow Through Supply Chains?"
   description: "I explain how TPC applies input-output analysis for tariffs."
@@ -42,6 +43,8 @@
       link: https://www.nytimes.com/2026/01/13/us/politics/trump-housing-costs.html?unlocked_article_code=1.EFA.zqzN.8Nrcn81fZNO8&smid=url-share
     - publication: Center for American Progress
       link: https://www.americanprogress.org/article/trump-administration-tariffs-could-result-in-450000-fewer-new-homes-through-2030/
+    - publication: House Oversight Committee (testimony)
+      link: https://oversight.house.gov/wp-content/uploads/2026/01/Nagy-Written-Testimony.pdf
 
 - title: "TPC: Supreme Court Ruling on IEEPA Tariffs Could Ease Cost Burdens, But Less Than You Might Think"
   description: "We use the tariff rules engine to analyze the marginal impact of IEEPA tariffs and simulate new tariffs."
