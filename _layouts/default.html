@@ -443,12 +443,13 @@
          var sortBtn = document.getElementById('sort-toggle');
          var sortMode = 'custom';
 
-         // Insert sort bar after tabs
+         // Insert sort bar after tabs sticky wrapper
          var tabs = document.querySelector('.tabs');
+         var tabsContainer = document.querySelector('.tabs-sticky') || tabs;
          var bar = document.createElement('div');
          bar.className = 'tab-bar';
          bar.appendChild(sortBtn.parentElement.removeChild(sortBtn));
-         tabs.parentNode.insertBefore(bar, tabs.nextSibling);
+         tabsContainer.parentNode.insertBefore(bar, tabsContainer.nextSibling);
          sortBtn.style.display = '';
 
          var slideDir = '';
