@@ -2,11 +2,13 @@
 layout: default
 ---
 
+<div class="tabs-sticky">
 <nav class="tabs">
    <button class="tab-btn active" data-tab="microsimulation">Microsimulation</button>
    <button class="tab-btn" data-tab="blogs">Research Notes</button>
    <button class="tab-btn" data-tab="working-papers">Working Papers</button>
 </nav>
+</div>
 
 <button id="sort-toggle" class="sort-btn" style="display:none">Sort: Custom</button>
 
