@@ -453,7 +453,7 @@
          sortBtn.style.display = '';
 
          var slideDir = '';
-         var tabsNaturalTop = tabsContainer.getBoundingClientRect().top + window.scrollY;
+         var siteHeader = document.querySelector('.site-header');
 
          tabButtons.forEach(function(btn) {
             btn.addEventListener('click', function(e) {
@@ -471,6 +471,7 @@
                panel.classList.add('active', 'slide-' + dir);
                slideDir = '';
                sortPanel(panel, sortMode);
+               var tabsNaturalTop = siteHeader.getBoundingClientRect().bottom + window.scrollY;
                if (window.scrollY > tabsNaturalTop) { window.scrollTo({ top: tabsNaturalTop, behavior: 'instant' }); }
             });
          });
