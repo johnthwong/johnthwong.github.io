@@ -453,6 +453,7 @@
          sortBtn.style.display = '';
 
          var slideDir = '';
+         var tabsNaturalTop = tabsContainer.getBoundingClientRect().top + window.scrollY;
 
          tabButtons.forEach(function(btn) {
             btn.addEventListener('click', function(e) {
@@ -470,7 +471,7 @@
                panel.classList.add('active', 'slide-' + dir);
                slideDir = '';
                sortPanel(panel, sortMode);
-               if (window.scrollY > tabsContainer.offsetTop) { window.scrollTo({ top: tabsContainer.offsetTop, behavior: 'instant' }); }
+               if (window.scrollY > tabsNaturalTop) { window.scrollTo({ top: tabsNaturalTop, behavior: 'instant' }); }
             });
          });
 
