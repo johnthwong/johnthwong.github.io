@@ -470,8 +470,7 @@
                panel.classList.add('active', 'slide-' + dir);
                slideDir = '';
                sortPanel(panel, sortMode);
-               var stickyTop = tabsContainer.getBoundingClientRect().top + window.scrollY;
-               if (window.scrollY > stickyTop) { window.scrollTo({ top: stickyTop, behavior: 'instant' }); }
+               if (window.scrollY > tabsContainer.offsetTop) { window.scrollTo({ top: tabsContainer.offsetTop, behavior: 'instant' }); }
             });
          });
 
