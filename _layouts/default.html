@@ -189,7 +189,8 @@
       }
 
       .card-date,
-      .card .card-cites {
+      .card .card-cites,
+      .card .card-collaborators {
          font-family: 'IBM Plex Mono', monospace;
          font-size: 12px;
          color: #64748b;
@@ -256,22 +257,15 @@
          max-width: 680px;
       }
 
-      .card-cites { margin-top: 12px; margin-bottom: 0; }
-      .card-img-wrapper + .card-cites { margin-top: 20px; }
-      .card-cites a { color: #64748b; }
-      .card-cites a:hover { color: #ff2d78; }
-
-      .card-collaborators {
-         font-family: 'IBM Plex Mono', monospace;
-         font-size: 12px;
-         color: #64748b;
-         display: block;
-         margin-top: 12px;
-         margin-bottom: 0;
-      }
+      .card-cites,
+      .card-collaborators { margin-top: 12px; margin-bottom: 0; }
+      .card-img-wrapper + .card-cites,
       .card-img-wrapper + .card-collaborators { margin-top: 20px; }
+      .card-cites a,
       .card-collaborators a { color: #64748b; }
+      .card-cites a:hover,
       .card-collaborators a:hover { color: #ff2d78; }
+      .card-collaborators .card-collab-label { color: #ff2d78; }
 
       .card-img-wrapper {
          margin: 16px auto 0;
