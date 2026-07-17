@@ -7,7 +7,8 @@
 
 - title: tpcutil
   description: "An R package that generates TPC's distribution and revenue tables—Excel workbooks, styled HTML tables, and Datawrapper charts—directly from model output. It runs 10x faster than the tooling it replaced and can publish an interactive Datawrapper version of any table automatically."
-  collaborators: [Nikhita Airi]
+  collaborators:
+    - Nikhita Airi
 
 - title: TPC Tariff Supply Chain Model
   description: "Tariffs on final goods are determined by tariffs on their intermediate inputs. We use input-output tables to map how goods feed into one another, and estimate final burden and price changes."

@@ -9,11 +9,13 @@
   image: images/Rplot_olson_reg_age.png
   date: 2024-12-20
   date_label: publication
-  collaborators: [Patrick McLaughlin]
+  collaborators:
+    - Patrick McLaughlin
 
 - title: Learning What We Like
   description: "A model of preference discovery."
-  collaborators: [Alex Tabarrok]
+  collaborators:
+    - Alex Tabarrok
 
 - title: How Monopolistic is iMessage?
   description: "To what extent does iMessage confer a monopolistic advantage to Apple? I estimate how much the service changes the demand elasticity for iPhones."
