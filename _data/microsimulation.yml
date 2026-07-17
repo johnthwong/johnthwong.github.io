@@ -5,6 +5,9 @@
   date: 2025-11-21
   date_label: launch
 
+- title: tpcutil
+  description: "An R package Nikhita Airi and I built that generates TPC's distribution and revenue tables—Excel workbooks, styled HTML tables, and Datawrapper charts—directly from model output. It runs 10x faster than the tooling it replaced and can publish an interactive Datawrapper version of any table automatically."
+
 - title: TPC Tariff Supply Chain Model
   description: "Tariffs on final goods are determined by tariffs on their intermediate inputs. We use input-output tables to map how goods feed into one another, and estimate final burden and price changes."
   html: https://taxpolicycenter.org/projects/resources/description-tax-policy-centers-tariff-models
