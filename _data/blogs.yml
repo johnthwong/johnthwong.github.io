@@ -65,6 +65,9 @@
   date: 2026-03-10
   date_label: publication
   image: images/estimated-cost-increases-for-final-consumption-goods.png
+  collaborators:
+    - Thomas Brosy
+    - Robert McClelland
 
 - title: "TPC: Supreme Court Ruling on IEEPA Tariffs Could Ease Cost Burdens, But Less Than You Might Think"
   description: "We use the tariff rules engine to analyze the marginal impact of IEEPA tariffs and simulate new tariffs."
@@ -96,6 +99,9 @@
   image: images/trump-administration-tariffs-announced-as-of-december-4-2025-change-in-average-federal-tax-rate.png
   date: 2025-12-12
   date_label: publication
+  collaborators:
+    - Janet Holtzblatt
+    - Robert McClelland
 
 - title: "TPC: Tariffs On Movies Would Face Very High Hurdles"
   description: "We explore the difficulties of levying import duties on intellectual property."
