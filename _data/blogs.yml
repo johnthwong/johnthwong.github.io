@@ -42,10 +42,11 @@
       link: https://www.datawrapper.de/#:~:text=you%E2%80%99ve%20seen%20visualizations%20created%20with%20it
 
 - title: "Brookings: Recent Tariffs Threaten Residential Construction"
-  description: "Using TPC's tariff supply chain model, Elena Patel, Robert McClelland, and I calculated that tariffs will add roughly $30 billion to the costs of investment in residential structures."
+  description: "Using TPC's tariff supply chain model, we calculated that tariffs will add roughly $30 billion to the costs of investment in residential structures."
   html: https://www.brookings.edu/articles/recent-tariffs-threaten-residential-construction/
   date: 2025-10-03
   date_label: publication
+  collaborators: [Elena Patel, Robert McClelland]
   features:
     - publication: The New York Times
       link: https://www.nytimes.com/2026/01/13/us/politics/trump-housing-costs.html?unlocked_article_code=1.EFA.zqzN.8Nrcn81fZNO8&smid=url-share
@@ -91,17 +92,19 @@
   date_label: publication
 
 - title: "TPC: Tariffs On Movies Would Face Very High Hurdles"
-  description: "Janet Holtzblatt, Rob McClelland, and I explore the difficulties of levying import duties on intellectual property."
+  description: "We explore the difficulties of levying import duties on intellectual property."
   html: https://taxpolicycenter.org/taxvox/tariffs-movies-would-face-very-high-hurdles
   date: 2025-11-05
   date_label: publication
+  collaborators: [Janet Holtzblatt, Robert McClelland]
 
 - title: "TPC: Too Many Goods Are About To Face Historically High Tariffs"
-  description: "Tariffs are typically levied on countries. But consumers buy goods by category, not by country of origin. In my first piece for Urban-Brookings Tax Policy Center, Robert McClelland and I use our revamped tariff model to translate the effects of country-based tariffs on major consumer goods."
+  description: "Tariffs are typically levied on countries. But consumers buy goods by category, not by country of origin. In my first piece for Urban-Brookings Tax Policy Center, we use our revamped tariff model to translate the effects of country-based tariffs on major consumer goods."
   html: https://taxpolicycenter.org/taxvox/too-many-goods-are-about-face-historically-high-tariffs
   image: images/MEFKK-tariff-rates-on-consumer-goods-.png
   date: 2025-07-08
   date_label: publication
+  collaborators: [Robert McClelland]
   features:
     - publication: Marketplace
       link: https://www.marketplace.org/episode/2025/07/09/the-countdown-to-a-government-shutdown-begins-again

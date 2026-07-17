@@ -23,6 +23,7 @@ layout: default
    <p>{{ item.description }}</p>
    {% if item.html %}<a class="btn-more" href="{{ item.html }}">More</a>{% endif %}
    {% if item.image %}<div class="card-img-wrapper"><img src="{{ item.image | relative_url }}" alt="{{ item.title }}"></div>{% endif %}
+   {% if item.collaborators %}<p class="card-collaborators">With {% for name in item.collaborators %}{% assign collab = site.data.collaborators | where: "name", name | first %}{% if collab.url %}<a href="{{ collab.url }}" target="_blank" rel="noopener">{{ name }}</a>{% else %}{{ name }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}</p>{% endif %}
    {% if item.features %}<p class="card-cites" data-features='[{% for f in item.features %}{"pub":"{{ f.publication }}","link":"{{ f.link }}"}{% unless forloop.last %},{% endunless %}{% endfor %}]'></p>{% endif %}
 </div>
 {% endfor %}
@@ -36,6 +37,7 @@ layout: default
    <p>{{ item.description }}</p>
    {% if item.html %}<a class="btn-more" href="{{ item.html }}">More</a>{% endif %}
    {% if item.image %}<div class="card-img-wrapper"><img src="{{ item.image | relative_url }}" alt="{{ item.title }}"></div>{% endif %}
+   {% if item.collaborators %}<p class="card-collaborators">With {% for name in item.collaborators %}{% assign collab = site.data.collaborators | where: "name", name | first %}{% if collab.url %}<a href="{{ collab.url }}" target="_blank" rel="noopener">{{ name }}</a>{% else %}{{ name }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}</p>{% endif %}
    {% if item.features %}<p class="card-cites" data-features='[{% for f in item.features %}{"pub":"{{ f.publication }}","link":"{{ f.link }}"}{% unless forloop.last %},{% endunless %}{% endfor %}]'></p>{% endif %}
 </div>
 {% endfor %}
@@ -49,6 +51,7 @@ layout: default
    <p>{{ item.description }}</p>
    {% if item.html %}<a class="btn-more" href="{{ item.html }}">More</a>{% endif %}
    {% if item.image %}<div class="card-img-wrapper"><img src="{{ item.image | relative_url }}" alt="{{ item.title }}"></div>{% endif %}
+   {% if item.collaborators %}<p class="card-collaborators">With {% for name in item.collaborators %}{% assign collab = site.data.collaborators | where: "name", name | first %}{% if collab.url %}<a href="{{ collab.url }}" target="_blank" rel="noopener">{{ name }}</a>{% else %}{{ name }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}</p>{% endif %}
    {% if item.features %}<p class="card-cites" data-features='[{% for f in item.features %}{"pub":"{{ f.publication }}","link":"{{ f.link }}"}{% unless forloop.last %},{% endunless %}{% endfor %}]'></p>{% endif %}
 </div>
 {% endfor %}
@@ -62,6 +65,7 @@ layout: default
    <p>{{ item.description }}</p>
    {% if item.html %}<a class="btn-more" href="{{ item.html }}">More</a>{% endif %}
    {% if item.image %}<div class="card-img-wrapper"><img src="{{ item.image | relative_url }}" alt="{{ item.title }}"></div>{% endif %}
+   {% if item.collaborators %}<p class="card-collaborators">With {% for name in item.collaborators %}{% assign collab = site.data.collaborators | where: "name", name | first %}{% if collab.url %}<a href="{{ collab.url }}" target="_blank" rel="noopener">{{ name }}</a>{% else %}{{ name }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}</p>{% endif %}
    {% if item.features %}<p class="card-cites" data-features='[{% for f in item.features %}{"pub":"{{ f.publication }}","link":"{{ f.link }}"}{% unless forloop.last %},{% endunless %}{% endfor %}]'></p>{% endif %}
 </div>
 {% endfor %}
