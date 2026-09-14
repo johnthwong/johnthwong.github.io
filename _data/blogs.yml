@@ -92,6 +92,15 @@
   date_label: publication
   collaborators:
     - Elaine Maag
+  features:
+    - publication: Sen. Todd Young
+      link: https://www.young.senate.gov/newsroom/press-releases/young-hassan-introduce-legislation-to-boost-child-tax-credit-for-working-families/
+    - publication: Sen. Catherine Cortez Masto
+      link: https://www.cortezmasto.senate.gov/news/press-releases/cortez-masto-joins-legislation-to-strengthen-the-child-tax-credit-and-provide-a-tax-cut-for-working-families/
+    - publication: Rep. María Elvira Salazar
+      link: https://salazar.house.gov/media/press-releases/salazar-joins-bipartisan-effort-expand-access-child-tax-credit-working
+    - publication: Rep. Chris Pappas
+      link: https://pappas.house.gov/media/press-releases/pappas-files-bipartisan-bill-to-cut-taxes-for-35-million-working-families
 
 - title: "TPC Shows Who Pays Trump Administration's Tariffs And Who Could Gain From $2,000 Dividend"
   description: "The distribution of tariff burden, generated with our latest tariff rules engine and input-output model."
