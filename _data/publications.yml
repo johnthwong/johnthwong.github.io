@@ -4,6 +4,15 @@
 #   image: images/example.png
 #   date: 2024-01-01
 #   date_label: publication
+- title: The Impact of Tariffs on the Cost of Capital in the US
+  html: https://www.aei.org/research-products/report/the-impact-of-tariffs-on-the-cost-of-capital-in-the-us/
+  date: 2026-10-01
+  date_label: publication
+  description: This report incorporates tariffs’ impact into the standard framework for estimating the cost of capital and the marginal effective tax rate (METR) on new investment in the US. Before the February 2026 Supreme Court ruling in Learning Resources v. Trump, Trump’s tariffs increased the economy-wide cost of capital by as much as 2.7 percent and the METR on new investment by 4.2 percentage points. While the METR varies across assets, legal forms of organization, and industries, this increase in the economy-wide METR on investment is enough to offset the aggregate reduction in the METR that the One Big Beautiful Bill Act provided.
+  collaborators:
+    - Kyle Pomerleau
+    - Thomas Brosy
+    - Robert McClelland
 - title: Offsetting Families' Tariff Burdens Through Refundable Tax Credits
   html: https://taxpolicycenter.org/research-reports/offsetting-families-tariff-burdens-through-refundable-tax-credits
   image: images/QsT0y-average-tax-change-from-ieepa-tariffs-and-credit-offsets-by-expanded-cash-income-percentile-.png
