@@ -72,6 +72,9 @@
   collaborators:
     - Thomas Brosy
     - Robert McClelland
+  features:
+    - publication: ProPublica
+      link: https://www.propublica.org/article/trump-tariff-refunds-corporate-bonuses
 
 - title: "TPC: Supreme Court Ruling on IEEPA Tariffs Could Ease Cost Burdens, But Less Than You Might Think"
   description: "We use the tariff rules engine to analyze the marginal impact of IEEPA tariffs and simulate new tariffs."
