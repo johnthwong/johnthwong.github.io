@@ -24,6 +24,15 @@
     - publication: The New York Times
       link: https://www.nytimes.com/2026/10/01/opinion/mexico-ai-trump.html
 
+- title: 'TPC: Tariff Repeal Options Would Have Very Different Price Effects'
+  description: We examine four options for rolling back tariffs. These range from only repealing tariffs imposed under Section 338 to also eliminating some or all Section 301 tariffs, with additional options that would also repeal Section 232 tariffs. The estimated economic effects of the levels of repeal vary considerably. 
+  html: https://taxpolicycenter.org/taxvox/tariff-repeal-options-would-have-very-different-price-effects
+  date: 2026-11-18
+  date_label: publication
+  image: images/repealing-major-presidental-authorities-would-return-over-1-000-to-families.png
+  collaborators:
+    - Robert McClelland
+
 - title: "TPC: New Section 232 Tariffs Lower Some Rates, But Add New Complexity"
   description: "I decode key features of Section 232 tariffs on metals and pharmaceuticals."
   html: https://taxpolicycenter.org/taxvox/new-section-232-tariffs-lower-some-rates-add-new-complexity
